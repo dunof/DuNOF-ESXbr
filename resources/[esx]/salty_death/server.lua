@@ -6,7 +6,7 @@ TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
 
 RegisterServerEvent('salty_death:updatePlayer')
 AddEventHandler('salty_death:updatePlayer', function(dead)
-    local xPlayer = ESX.GetPlayerFromId(source)
+    local xPlayer = ESX.GetPlayerFromId(_source)
     local identifier = xPlayer.identifier
 	local deathStatus = 0
 
@@ -20,7 +20,7 @@ AddEventHandler('salty_death:updatePlayer', function(dead)
 end)
 
 ESX.RegisterServerCallback('salty_death:isDead', function (source, cb)
-	local xPlayer = ESX.GetPlayerFromId(source)
+	local xPlayer = ESX.GetPlayerFromId(_source)
     local identifier = xPlayer.identifier
 	
 	MySQL.Async.fetchAll("SELECT * FROM users WHERE identifier = @identifier", {
