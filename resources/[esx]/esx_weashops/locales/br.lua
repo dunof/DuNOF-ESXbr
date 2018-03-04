@@ -1,4 +1,4 @@
-Locales ['en'] = {
+Locales ['br'] = {
 
   ['buy_license'] = 'comprar porte de arma?',
   ['yes'] = 'sim',
