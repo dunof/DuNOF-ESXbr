@@ -303,11 +303,11 @@ Citizen.CreateThread(function()
 		  SetBlipSprite (blip, 357)
 		  SetBlipDisplay(blip, 4)
 		  SetBlipScale  (blip, 1.2)
-		  SetBlipColour (blip, 3)
+		  SetBlipColour (blip, 22)
 		  SetBlipAsShortRange(blip, true)
 			
 			BeginTextCommandSetBlipName("STRING")
-		  AddTextComponentString("Garage")
+		  AddTextComponentString("Garagem")
 		  EndTextCommandSetBlipName(blip)
 
 		end

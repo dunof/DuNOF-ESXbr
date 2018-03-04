@@ -6,7 +6,7 @@ Locales['br'] = {
 	['name_outfit'] = 'nome do traje?',
 	['not_enough_money'] = 'você não possui dinheiro suficiente',
 	['press_menu'] = 'pressione ~INPUT_CONTEXT~ para acessar o menu',
-	['clothes'] = 'roupas',
+	['clothes'] = 'Loja de Roupas',
 	['you_paid'] = 'você pagou $',
 	['save_in_dressing'] = 'você deseja salvar este traje?',
 

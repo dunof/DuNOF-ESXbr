@@ -1,7 +1,7 @@
 Locales['br'] = {
 
-  ['free_prop'] = 'propriedade disponível',
-  ['property'] = 'propriedade',
+  ['free_prop'] = 'Propriedade Disponível',
+  ['property'] = 'Propriedade Adquirida',
   ['enter'] = 'entrar',
   ['leave'] = 'sair',
   ['buy'] = 'comprar',

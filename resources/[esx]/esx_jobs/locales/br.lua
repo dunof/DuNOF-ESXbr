@@ -25,12 +25,12 @@ Locales['br'] = {
   ['service_vh']                = 'veículo de serviço',
   ['return_vh']                 = 'veiculo devolvido',
   ['return_vh_button']          = 'pressione ~INPUT_PICKUP~ para devolver o veiculo.',
-  ['delivery_point']            = 'ponto de entrega',
-  ['delivery']                  = 'Entrega',
+  ['delivery_point']            = 'Ponto de Entrega',
+  ['delivery']                  = 'entrega',
 
   -- Trabalho de Lenhador
-  ['lj_locker_room']            = "Vestiario Lenhador",
-  ['lj_mapblip']                = 'pilha de madeira',
+  ['lj_locker_room']            = "Vestiário Lenhador",
+  ['lj_mapblip']                = 'Pilha de Madeira',
   ['lj_wood']                   = 'madeira',
   ['lj_pickup']                 = 'pressione ~INPUT_PICKUP~ para recuperar madeira.',
   ['lj_cutwood']                = 'Corte de Madeira',
