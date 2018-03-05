@@ -19,7 +19,7 @@ AddEventHandler('salty_death:updatePlayer', function(dead)
 	})
 end)
 
-ESX.RegisterServerCallback('salty_death:isDead', function (source, cb)
+ESX.RegisterServerCallback('salty_death:isDead', function (_source, cb)
 	local xPlayer = ESX.GetPlayerFromId(_source)
     local identifier = xPlayer.identifier
 	
