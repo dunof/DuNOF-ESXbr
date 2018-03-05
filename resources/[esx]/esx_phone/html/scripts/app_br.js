@@ -299,7 +299,7 @@
 		$('.phone-icon').unbind('click');
 
 		$('#phone .menu .home').html(
-			'<li class="phone-icon" id="phone-icon-rep">Repertório</li>' +
+			'<li class="phone-icon" id="phone-icon-rep">Contatos</li>' +
 			'<li class="phone-icon" id="phone-icon-msg">Mensagens</li>'
 		);
 
