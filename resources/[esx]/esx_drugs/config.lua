@@ -34,7 +34,7 @@ Config.Map = {
   {name="Fazenda de Ópio", 		color=6,  scale=0.8, id=403, x=1972.784790039,   y=3819.3999023438,  z=33.428722381592},
   {name="Refino de Ópio", 		color=6,  scale=0.8, id=403, x=971.86499023438,  y=-2157.61328125,   z=28.475107192994},
   {name="Venda de Ópio",   		color=6,  scale=0.8, id=403, x=2331.0881347656,  y=2570.2250976562,  z=46.681819915772},
-  {name="Fazenda de Maconha",	color=24, scale=0.8, id=140, x=2217.125,         y=5577.5942382813,  z=52.961572647095},
-  {name="Refino de Maconha",	color=24, scale=0.8, id=140, x=29.061386108398,  y=3666.0380859375,  z=39.77326965332},
-  {name="Venda de Maconha",   	color=24, scale=0.8, id=140, x=-54.249694824219, y=-1443.3666992188, z=31.068626403809}
+  {name="Fazenda de Maconha",	color=24, scale=0.8, id=496, x=2217.125,         y=5577.5942382813,  z=52.961572647095},
+  {name="Refino de Maconha",	color=24, scale=0.8, id=496, x=29.061386108398,  y=3666.0380859375,  z=39.77326965332},
+  {name="Venda de Maconha",   	color=24, scale=0.8, id=496, x=-54.249694824219, y=-1443.3666992188, z=31.068626403809}
 }
