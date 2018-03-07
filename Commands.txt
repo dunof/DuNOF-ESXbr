@@ -1,0 +1,9 @@
+[HOME] = ES_ADMIN2
+
+
+[F1] = Cellphone
+[F2] = Inventory
+[F3] = Animations
+
+[X] = HANDS UP (Toggle)
+[L] = Vehicle Inventory
