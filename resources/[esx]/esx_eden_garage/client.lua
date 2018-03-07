@@ -52,21 +52,21 @@ function refreshBlips()
 		local blip = AddBlipForCoord(zoneValues.Pos.x, zoneValues.Pos.y, zoneValues.Pos.z)
 		SetBlipSprite (blip, Config.BlipInfos.Sprite)
 		SetBlipDisplay(blip, 4)
-		SetBlipScale  (blip, 1.2)
+		SetBlipScale  (blip, 0.8)
 		SetBlipColour (blip, Config.BlipInfos.Color)
 		SetBlipAsShortRange(blip, true)
 		BeginTextCommandSetBlipName("STRING")
-		AddTextComponentString(zoneKey)
+		AddTextComponentString(zoneValues.Name)
 		EndTextCommandSetBlipName(blip)
 		
 		local blip = AddBlipForCoord(zoneValues.MunicipalPoundPoint.Pos.x, zoneValues.MunicipalPoundPoint.Pos.y, zoneValues.MunicipalPoundPoint.Pos.z)
 		SetBlipSprite (blip, Config.BlipPound.Sprite)
 		SetBlipDisplay(blip, 4)
-		SetBlipScale  (blip, 1.2)
+		SetBlipScale  (blip, 0.8)
 		SetBlipColour (blip, Config.BlipPound.Color)
 		SetBlipAsShortRange(blip, true)
 		BeginTextCommandSetBlipName("STRING")
-		AddTextComponentString("Fourriere")
+		AddTextComponentString("Seguradora")
 		EndTextCommandSetBlipName(blip)
 	end
 end
@@ -96,7 +96,7 @@ function OpenMenuGarage(PointType)
 	ESX.UI.Menu.Open(
 		'default', GetCurrentResourceName(), 'garage_menu',
 		{
-			title    = 'Garage',
+			title    = 'Garagem',
 			align    = 'top-left',
 			elements = elements,
 		},
@@ -138,7 +138,7 @@ function ListVehiclesMenu()
     		local labelvehicle
 
     		if(v.state)then
-    		labelvehicle = vehicleName..': Garage'
+    		labelvehicle = vehicleName..': Garagem'
     		
     		else
     		labelvehicle = vehicleName..': Fourriere'
@@ -150,7 +150,7 @@ function ListVehiclesMenu()
 		ESX.UI.Menu.Open(
 		'default', GetCurrentResourceName(), 'spawn_vehicle',
 		{
-			title    = 'Garage',
+			title    = 'Garagem',
 			align    = 'top-left',
 			elements = elements,
 		},
@@ -176,12 +176,12 @@ function reparation(prix,vehicle,vehicleProps)
 
 	local elements = {
 		{label = "Rentrer le vehicule ("..prix.."$)", value = 'yes'},
-		{label = "passer voir le mécano", value = 'no'},
+		{label = "passar no mecânico", value = 'no'},
 	}
 	ESX.UI.Menu.Open(
 		'default', GetCurrentResourceName(), 'delete_menu',
 		{
-			title    = 'vehicule endomagé',
+			title    = 'veículo danificado',
 			align    = 'top-left',
 			elements = elements,
 		},
@@ -193,7 +193,7 @@ function reparation(prix,vehicle,vehicleProps)
 				ranger(vehicle,vehicleProps)
 			end
 			if(data.current.value == 'no') then
-				ESX.ShowNotification('Passez voir le mécano')
+				ESX.ShowNotification('Passar no mecânico')
 			end
 
 		end,
@@ -207,7 +207,7 @@ end
 function ranger(vehicle,vehicleProps)
 	ESX.Game.DeleteVehicle(vehicle)
 	TriggerServerEvent('eden_garage:modifystate', vehicleProps, true)
-	TriggerEvent('esx:showNotification', 'Votre véhicule est dans le garage')
+	TriggerEvent('esx:showNotification', 'Seu veículo foi guardado na garagem')
 end
 
 -- Fonction qui permet de rentrer un vehicule
@@ -225,7 +225,7 @@ function StockVehicleMenu()
 		ESX.TriggerServerCallback('eden_garage:stockv',function(valid)
 
 			if (valid) then
-				TriggerServerEvent('eden_garage:debug', "plaque vehicule rentree au garage: "  .. vehicleProps.plate)
+				TriggerServerEvent('eden_garage:debug', "placa do veículo retornado a garagem: "  .. vehicleProps.plate)
 				TriggerServerEvent('eden_garage:logging',"santee vehicule rentree au garage: " .. engineHealth)
 				if engineHealth < 1000 then
 			        local fraisRep= math.floor((1000 - engineHealth)*100)			      
@@ -292,13 +292,13 @@ AddEventHandler('eden_garage:hasEnteredMarker', function(zone)
 
 	if zone == 'spawn' then
 		CurrentAction     = 'spawn'
-		CurrentActionMsg  = "Appuyer sur ~INPUT_PICKUP~ pour sortir un vehicule"
+		CurrentActionMsg  = "pressione ~INPUT_PICKUP~ para retirar um veículo"
 		CurrentActionData = {}
 	end
 
 	if zone == 'delete' then
 		CurrentAction     = 'delete'
-		CurrentActionMsg  = "Appuyer sur ~INPUT_PICKUP~ pour rentrer un vehicule"
+		CurrentActionMsg  = "pressione ~INPUT_PICKUP~ para guardar um veículo"
 		CurrentActionData = {}
 	end
 	
@@ -336,7 +336,7 @@ function ReturnVehicleMenu()
 		ESX.UI.Menu.Open(
 		'default', GetCurrentResourceName(), 'return_vehicle',
 		{
-			title    = 'Garage',
+			title    = 'Garagem',
 			align    = 'top-left',
 			elements = elements,
 		},

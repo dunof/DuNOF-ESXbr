@@ -3,21 +3,22 @@ Config = {
 	DrawDistance = 100,
 	Price = 3000,
 	BlipInfos = {
-		Sprite = 290,
+		Sprite = 50,
 		Color = 38 
 	},
 	BlipPound = {
-		Sprite = 67,
-		Color = 64 
+		Sprite = 380,
+		Color = 75 
 	}
 }
 
 Config.Garages = {
-	Garage_Centre = {	
-		Pos = {x=215.800, y=-810.057, z=29.727},
-		Size  = {x = 3.0, y = 3.0, z = 1.0},
-		Color = {r = 204, g = 204, b = 0},
-		Marker = 1,
+	Garage_Centre = {
+		Name	= "Garagem Praça",	
+		Pos 	= {x=215.800, y=-810.057, z=29.727},
+		Size  	= {x = 3.0, y = 3.0, z = 1.0},
+		Color 	= {r = 204, g = 204, b = 0},
+		Marker 	= 1,
 		SpawnPoint = {
 			Pos = {x=229.700, y= -800.1149, z= 29.5722},
 			Color = {r=0,g=255,b=0},
@@ -46,7 +47,8 @@ Config.Garages = {
 			Heading=299.42
 		},
 	},
-	Garage_Paleto = {	
+	Garage_Paleto = {
+		Name	= "Garagem Paleto",	
 		Pos = {x=105.359, y=6613.586, z=31.3973},
 		Size  = {x = 3.0, y = 3.0, z = 1.0},
 		Color = {r = 204, g = 204, b = 0},
@@ -76,7 +78,8 @@ Config.Garages = {
 			Marker = 1
 		},
 	},
-	Garage_Poissoniers = {	
+	Garage_Poissoniers = {
+		Name	= "Garagem Poissoniers",	
 		Pos = {x = -1511.6556396484,y = 5009.875,z = 61.800533294678 },
 		Size  = {x = 3.0, y = 3.0, z = 1.0},
 		Color = {r = 204, g = 204, b = 0},
@@ -106,7 +109,8 @@ Config.Garages = {
 			Marker = 1
 		},
 	},
-	Garage_SandyShore = {	
+	Garage_SandyShore = {
+		Name	= "Garagem SandyShore",
 		Pos = {x = 1979.3223876953,y = 3828.7197265625,z = 31.394721984863 },
 		Size  = {x = 3.0, y = 3.0, z = 1.0},
 		Color = {r = 204, g = 204, b = 0},
@@ -136,7 +140,8 @@ Config.Garages = {
 			Marker = 1
 		},
 	},
-		Garage_Aeroport = {	
+		Garage_Aeroport = {
+		Name	= "Garagem Aeroporto",	
 		Pos = {x = -977.21661376953,y = -2710.3798828125,z = 12.853487014771 },
 		Size  = {x = 3.0, y = 3.0, z = 1.0},
 		Color = {r = 204, g = 204, b = 0},
