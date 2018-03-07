@@ -1,0 +1,1 @@
+ALTER TABLE `owned_vehicles` ADD `state` BOOLEAN NOT NULL DEFAULT FALSE COMMENT 'Estado do carro' AFTER `owner`;

@@ -1,8 +1,8 @@
 # JOBS
 - Refinador: não pega o uniforme nem o caminhão
 
-# Ópio
-- 
+# Opium Farm
+- Map bug
 
 # Vehicle Inventory
 - Can't Storage

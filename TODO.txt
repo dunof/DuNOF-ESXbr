@@ -1,9 +1,17 @@
-# Mecano JOB
-- Revisar locales BR
+# Jail
+- Testar!
 
 # DMVSchool
 - Traduzir prova teórica
+- Testar!
+
+# Thief
+- Testar!
+
+# Traduzir
+- esx_vehicle_inventory
 
 # Revisão de Tradução
 - esx_jailer
 - esx_accessories
+- esx_mecanojob
