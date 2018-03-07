@@ -3,7 +3,14 @@
 
 [F1] = Cellphone
 [F2] = Inventory
-[F3] = Animations
+[F3] = Animations --# [F3] Stop Animation (default: X)
 
 [X] = HANDS UP (Toggle)
 [L] = Vehicle Inventory
+[K] = Menu Accessories
+
+# Jail
+/jail1 ID SEGUNDOS
+/jail2 ID SEGUNDOS
+/jail3 ID SEGUNDOS
+/unjail ID

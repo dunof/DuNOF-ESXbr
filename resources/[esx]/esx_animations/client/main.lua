@@ -174,7 +174,7 @@ Citizen.CreateThread(function()
 	  	OpenAnimationsMenu()
 	  end
 
-	  if IsControlJustReleased(0, Keys['X']) then
+	  if IsControlJustReleased(0, Keys['F3']) then
 	  	ClearPedTasks(GetPlayerPed(-1))
 	  end
 

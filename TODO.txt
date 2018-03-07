@@ -3,3 +3,7 @@
 
 # DMVSchool
 - Traduzir prova teórica
+
+# Revisão de Tradução
+- esx_jailer
+- esx_accessories
