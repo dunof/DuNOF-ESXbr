@@ -4,6 +4,8 @@ client_scripts {
 	"client.lua",
 
 	-- add skins here
+	"skins/id6.lua",
+	"skins/id7.lua",
 	"skins/default.lua",
 	"skins/default_middle.lua",
 

@@ -175,8 +175,8 @@ function reparation(prix,vehicle,vehicleProps)
 	ESX.UI.Menu.CloseAll()
 
 	local elements = {
-		{label = "Rentrer le vehicule ("..prix.."$)", value = 'yes'},
-		{label = "passar no mecânico", value = 'no'},
+		{label = "pagar o concerto, valor: ($"..prix..")", value = 'yes'},
+		{label = "desistir", value = 'no'},
 	}
 	ESX.UI.Menu.Open(
 		'default', GetCurrentResourceName(), 'delete_menu',
