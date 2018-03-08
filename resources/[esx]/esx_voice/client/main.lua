@@ -19,7 +19,7 @@ function drawLevel(r, g, b, a)
   SetTextOutline()
   SetTextEntry("STRING")
   AddTextComponentString("~y~Voz:~s~ " .. voice.level)
-  DrawText(0.160, 0.90)
+  DrawText(0.167, 0.956)
 end
 
 AddEventHandler('onClientMapStart', function()
@@ -42,18 +42,18 @@ Citizen.CreateThread(function()
         voice.level = "Normal"
       elseif voice.current == 1 then
         NetworkSetTalkerProximity(voice.shout)
-        voice.level = "Shout"
+        voice.level = "Gritar"
       elseif voice.current == 2 then
         NetworkSetTalkerProximity(voice.whisper)
-        voice.level = "Whisper"
+        voice.level = "Sussurrar"
       end
     end
     if voice.current == 0 then
       voice.level = "Normal"
     elseif voice.current == 1 then
-      voice.level = "Shout"
+      voice.level = "Gritar"
     elseif voice.current == 2 then
-      voice.level = "Whisper"
+      voice.level = "Sussurar"
     end
     if NetworkIsPlayerTalking(PlayerId()) then
       drawLevel(41, 128, 185, 255)

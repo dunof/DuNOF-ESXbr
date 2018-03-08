@@ -192,7 +192,7 @@ AddEventHandler('eden_garage:payhealth', function(price)
 
 	xPlayer.removeMoney(price)
 
-	TriggerClientEvent('esx:showNotification', source, 'Vous avez payé ' .. price)
+	TriggerClientEvent('esx:showNotification', source, 'Você pagou o concerto do veículo no valor de ' .. price)
 
 end)
 --fin de payement pour la santé vehicule
