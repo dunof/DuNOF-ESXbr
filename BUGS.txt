@@ -1,8 +1,11 @@
-# JOBS
+# esx_jobs
 - Refinador: não pega o uniforme nem o caminhão
 
-# Opium Farm
-- Map bug
+# esx_drugs
+- Opium Farm - Map bug
 
 # Vehicle Inventory
 - Can't Storage
+
+# esx_thief
+- Console Error: Error resuming coroutine: handsup.lua:25: attempt to call a nil value (global 'GetPlayerPed')
