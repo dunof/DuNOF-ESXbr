@@ -10,8 +10,5 @@
 # esx_thief
 - Console Error: Error resuming coroutine: handsup.lua:25: attempt to call a nil value (global 'GetPlayerPed')
 
-# esx_phone
-- Pessoas não estão recebendo chamado do celular
-
 # NoPlayerBlips
 - Nome aparecendo para alguns
