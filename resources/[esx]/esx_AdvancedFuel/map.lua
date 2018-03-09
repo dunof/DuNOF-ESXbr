@@ -398,8 +398,8 @@ Citizen.CreateThread(function()
     for _, item in pairs(blips) do
       item.blip = AddBlipForCoord(item.x, item.y, item.z)
       SetBlipSprite(item.blip, item.id)
-      SetBlipScale  (item.blip, 0.8)
-      SetBlipColour (item.blip, 56)
+      SetBlipScale  (item.blip, 0.6)
+      SetBlipColour (item.blip, 46)
       SetBlipAsShortRange(item.blip, true)
       BeginTextCommandSetBlipName("STRING")
       AddTextComponentString(item.name)
@@ -420,7 +420,7 @@ Citizen.CreateThread(function()
                	 	local z = stationsText[item.s].z
               	  	local streetA, streetB = Citizen.InvokeNative( 0x2EB41072B4C1E4C0, x, y, z, Citizen.PointerValueInt(), Citizen.PointerValueInt() )
                		DrawText3D(x,y,z, "~g~ "..settings[lang].fuelStation.." "..GetStreetNameFromHashKey(streetA).." "..GetStreetNameFromHashKey(streetB))
-               		DrawText3D(x,y,z-0.2, "~b~"..settings[lang].price.." : "..StationsPrice[item.s].."$/L")
+               		DrawText3D(x,y,z-0.2, "~b~"..settings[lang].price..": R$"..StationsPrice[item.s].."/L")
                	end
             end
         end
@@ -442,7 +442,7 @@ Citizen.CreateThread(function()
                 	local z = stationsText[item.s].z
                 	local streetA, streetB = Citizen.InvokeNative( 0x2EB41072B4C1E4C0, x, y, z, Citizen.PointerValueInt(), Citizen.PointerValueInt() )
                 	DrawText3D(x,y,z, "~g~ "..settings[lang].boatFuelStation.." "..GetStreetNameFromHashKey(streetA).." "..GetStreetNameFromHashKey(streetB))
-                	DrawText3D(x,y,z-0.2, "~b~"..settings[lang].price.." : "..StationsPrice[item.s].."$/L")
+                	DrawText3D(x,y,z-0.2, "~b~"..settings[lang].price..": R$"..StationsPrice[item.s].."/L")
                 end
             end
         end
@@ -458,7 +458,7 @@ Citizen.CreateThread(function()
                 	local z = stationsText[item.s].z
                 	local streetA, streetB = Citizen.InvokeNative( 0x2EB41072B4C1E4C0, x, y, z, Citizen.PointerValueInt(), Citizen.PointerValueInt() )
                 	DrawText3D(x,y,z, "~g~ "..settings[lang].avionFuelStation.." "..GetStreetNameFromHashKey(streetA).." "..GetStreetNameFromHashKey(streetB))
-                	DrawText3D(x,y,z-0.2, "~b~"..settings[lang].price.." : "..StationsPrice[item.s].."$/L")
+                	DrawText3D(x,y,z-0.2, "~b~"..settings[lang].price..": R$"..StationsPrice[item.s].."/L")
                 end
             end
         end
