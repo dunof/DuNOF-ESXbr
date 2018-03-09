@@ -58,7 +58,7 @@ settings["br"] = {
 	refeel = "pressione ~g~E~w~ para reabastecer o carro.",
 	YouHaveBought = "Você comprou ",
 	fuel = " litros de gasolina",
-	price = "pre"
+	price = "preço"
 }
 
 showBar = true
