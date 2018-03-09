@@ -27,8 +27,8 @@ Config.ShowDeathTimer               = true
 -- Will allow to respawn at any time, don't use RespawnToHospitalMenuTimer at the same time !
 Config.EarlyRespawn                 = false
 -- The player can have a fine (on bank account)
-Config.RespawnFine                  = false
-Config.RespawnFineAmount            = 500
+Config.RespawnFine                  = true
+Config.RespawnFineAmount            = 1000
 
 Config.Locale                       = 'br'
 
