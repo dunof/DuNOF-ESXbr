@@ -224,9 +224,9 @@ Citizen.CreateThread(function()
 
   local blip = AddBlipForCoord(Config.Zones.DMVSchool.Pos.x, Config.Zones.DMVSchool.Pos.y, Config.Zones.DMVSchool.Pos.z)
 
-  SetBlipSprite (blip, 408)
+  SetBlipSprite (blip, 513)
   SetBlipDisplay(blip, 4)
-  SetBlipScale  (blip, 1.2)
+  SetBlipScale  (blip, 1.0)
   SetBlipAsShortRange(blip, true)
 
   BeginTextCommandSetBlipName("STRING")
@@ -417,7 +417,7 @@ Citizen.CreateThread(function()
               IsAboveSpeedLimit = true
 
               ESX.ShowNotification(_U('driving_too_fast') .. v .. 'km/h')
-              ESX.ShowNotification(_U('errors') .. DriveErrors .. '~s~/' .. Config.MaxErrors)
+              ESX.ShowNotification(_U('erros') .. DriveErrors .. '~s~/' .. Config.MaxErrors)
 
             end
 
@@ -435,7 +435,7 @@ Citizen.CreateThread(function()
           DriveErrors = DriveErrors + 1
 
           ESX.ShowNotification(_U('you_damaged_veh'))
-          ESX.ShowNotification(_U('errors') .. DriveErrors .. '~s~/' .. Config.MaxErrors)
+          ESX.ShowNotification(_U('erros') .. DriveErrors .. '~s~/' .. Config.MaxErrors)
                     LastVehicleHealth = health
 
         end

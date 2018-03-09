@@ -204,7 +204,7 @@ Locales['br'] = {
 -- Cosmetics
 	['cosmetics'] = 'cosméticos',
 	-- Body Parts
-	['bodyparts'] = 'carrosseria',
+	['bodyparts'] = 'carroceria',
 	['leftfender'] = 'pára-lamas esquerdo',
 	['rightfender'] = 'pára-lamas direito',
 	['spoilers'] = 'aerofólio',
@@ -237,7 +237,7 @@ Locales['br'] = {
 	['muscle'] = 'rodas Muscle',
 	['lowrider'] = 'rodas Lowrider',
 	['suv'] = 'rodas SUV',
-	['allterrain'] = 'rodas Todos os Terrenos',
+	['allterrain'] = 'rodas Off-road',
 	['tuning'] = 'rodas Tuning',
 	['motorcycle'] = 'rodas de Moto',
 	['highend'] = 'rodas de Ponta',

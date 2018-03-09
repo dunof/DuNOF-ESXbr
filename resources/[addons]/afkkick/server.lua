@@ -1,4 +1,4 @@
 RegisterServerEvent("kickForBeingAnAFKDouchebag")
 AddEventHandler("kickForBeingAnAFKDouchebag", function()
-	DropPlayer(source, "You were AFK for too long.")
+	DropPlayer(source, "Você ficou AFK por mais de 5 minutos.")
 end)
