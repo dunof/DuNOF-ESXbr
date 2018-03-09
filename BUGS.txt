@@ -10,9 +10,6 @@
 # esx_thief
 - Console Error: Error resuming coroutine: handsup.lua:25: attempt to call a nil value (global 'GetPlayerPed')
 
-# esx_property
-- Algumas propriedades não estão sendo cobradas para alugar
-
 # esx_phone
 - Pessoas não estão recebendo chamado do celular
 
