@@ -396,15 +396,15 @@ end
 function GetNeons()
 	local neons = {
 	    { label = _U('white'), 			r = 255, 	g = 255, 	b = 255},
-	    { label = "Slate Gray", 	r = 112, 	g = 128, 	b = 144},
-	    { label = "Blue", 			r = 0, 		g = 0, 		b = 255},
-	    { label = "Light Blue", 	r = 0, 		g = 150, 	b = 255},
-	    { label = "Navy Blue", 		r = 0, 		g = 0, 		b = 128},
-	    { label = "Sky Blue", 		r = 135, 	g = 206, 	b = 235},
-	    { label = "Turquoise", 		r = 0, 		g = 245, 	b = 255},
-	    { label = "Mint Green", 	r = 50, 	g = 255, 	b = 155},
-	    { label = "Lime Green", 	r = 0, 		g = 255, 	b = 0},
-	    { label = "Olive", 			r = 128, 	g = 128, 	b = 0},
+	    { label = "Ardósia Cinza", 		r = 112, 	g = 128, 	b = 144},
+	    { label = "Azul", 				r = 0, 		g = 0, 		b = 255},
+	    { label = "Azul Claro", 		r = 0, 		g = 150, 	b = 255},
+	    { label = "Azul Marinho", 		r = 0, 		g = 0, 		b = 128},
+	    { label = "Azul Céu", 			r = 135, 	g = 206, 	b = 235},
+	    { label = "Turquesa", 			r = 0, 		g = 245, 	b = 255},
+	    { label = "Verde Menta", 		r = 50, 	g = 255, 	b = 155},
+	    { label = "Verde Limão", 		r = 0, 		g = 255, 	b = 0},
+	    { label = "Verde Oliva",		r = 128, 	g = 128, 	b = 0},
 	    { label = _U('yellow'), 		r = 255, 	g = 255, 	b = 0},
 	    { label = _U('gold'), 			r = 255, 	g = 215, 	b = 0},
 	    { label = _U('orange'), 		r = 255, 	g = 165, 	b = 0},
@@ -413,7 +413,7 @@ function GetNeons()
 	    { label = _U('pink'), 			r = 255, 	g = 161, 	b = 211},
 	    { label = _U('brightpink'), 	r = 255, 	g = 0, 		b = 255},
 	    { label = _U('purple'), 		r = 153, 	g = 0, 		b = 153},
-	    { label = "Ivory", 			r = 41, 	g = 36, 	b = 33}
+	    { label = "Marfim", 			r = 41, 	g = 36, 	b = 33}
    	}
    	return neons
 end
@@ -496,165 +496,165 @@ Config.Menus = {
 		modXenon = _U('headlights'),
 		plateIndex = _U('licenseplates'),
 		wheels = _U('wheels'),
-		modPlateHolder   	= 'Plaque - Contour',
-		modVanityPlate   	= 'Plaque - Avant',
-		modTrimA    		= 'Intérieur',
-		modOrnaments    	= 'Ornements',
-		modDashboard    	= 'Tableau de bord',
-		modDial    			= 'Compteur de vitesse',
-		modDoorSpeaker    	= 'Sono portière',
-		modSeats    		= 'Sièges',
-		modSteeringWheel    = 'Volant',
-		modShifterLeavers   = 'Levier de vitesse',
-		modAPlate    		= 'Plage arrière',
-		modSpeakers    		= 'Sono',
-		modTrunk    		= 'Coffre',
-		modHydrolic    		= 'Hydrolique',
-		modEngineBlock    	= 'Bloc moteur',
-		modAirFilter    	= 'Filtre à air',
-		modStruts    		= 'Struts',
-		modArchCover    	= 'Cache-roues',
-		modAerials    		= 'Antennes',
-		modTrimB    		= 'Ailes',
-		modTank    			= 'Réservoir',
-		modWindows    		= 'Fenêtres',
-		modLivery    		= 'Stickers'
+		modPlateHolder   	= 'Placa - Contorno',
+		modVanityPlate   	= 'Placa Dianteira',
+		modTrimA    		= 'Interior',
+		modOrnaments    	= 'Adornos',
+		modDashboard    	= 'Computador de Bordo',
+		modDial    			= 'Velocímetro',
+		modDoorSpeaker    	= 'Som da Porta',
+		modSeats    		= 'Assentos',
+		modSteeringWheel    = 'Volante',
+		modShifterLeavers   = 'Marcha',
+		modAPlate    		= 'Placa Traseira',
+		modSpeakers    		= 'Som',
+		modTrunk    		= 'Porta-malas',
+		modHydrolic    		= 'Hidráulica',
+		modEngineBlock    	= 'Bloco do Motor',
+		modAirFilter    	= 'Filtro de Ar',
+		modStruts    		= 'Escoras',
+		modArchCover    	= 'Cobertura de Roda',
+		modAerials    		= 'Antenas',
+		modTrimB    		= 'Pára-lamas',
+		modTank    			= 'Tanque',
+		modWindows    		= 'Janelas',
+		modLivery    		= 'Adesivos'
 	},
 
 	modPlateHolder = {
-		label = 'Plaque - Contour',
+		label = 'Placa - Contorno',
 		parent = 'cosmetics',
 		modType = 25,
 		price = 3.49
 	},
 	modVanityPlate = {
-		label = 'Plaque - Avant',
+		label = 'Placa Dianteira',
 		parent = 'cosmetics',
 		modType = 26,
 		price = 1.1
 	},
 	modTrimA = {
-		label = 'Intérieur',
+		label = 'Interior',
 		parent = 'cosmetics',
 		modType = 27,
 		price = 6.98
 	},
 	modOrnaments = {
-		label = 'Ornements',
+		label = 'Adornos',
 		parent = 'cosmetics',
 		modType = 28,
 		price = 0.9
 	},
 	modDashboard = {
-		label = 'Tableau de bord',
+		label = 'Computador de Bordo',
 		parent = 'cosmetics',
 		modType = 29,
 		price = 4.65
 	},
 	modDial = {
-		label = 'Compteur de vitesse',
+		label = 'Velocímetro',
 		parent = 'cosmetics',
 		modType = 30,
 		price = 4.19
 	},
 	modDoorSpeaker = {
-		label = 'Sono portière',
+		label = 'Som da Porta',
 		parent = 'cosmetics',
 		modType = 31,
 		price = 5.58
 	},
 	modSeats = {
-		label = 'Siège',
+		label = 'Assentos',
 		parent = 'cosmetics',
 		modType = 32,
 		price = 4.65
 	},
 	modSteeringWheel = {
-		label = 'Volant',
+		label = 'Volante',
 		parent = 'cosmetics',
 		modType = 33,
 		price = 4.19
 	},
 	modShifterLeavers = {
-		label = 'Levier de vitesse',
+		label = 'Marcha',
 		parent = 'cosmetics',
 		modType = 34,
 		price = 3.26
 	},
 	modAPlate = {
-		label = 'Plage arrière',
+		label = 'Placa Traseira',
 		parent = 'cosmetics',
 		modType = 35,
 		price = 4.19
 	},
 	modSpeakers = {
-		label = 'Sono',
+		label = 'Som',
 		parent = 'cosmetics',
 		modType = 36,
 		price = 6.98
 	},
 	modTrunk = {
-		label = 'Coffre',
+		label = 'Porta-malas',
 		parent = 'cosmetics',
 		modType = 37,
 		price = 5.58
 	},
 	modHydrolic = {
-		label = 'Hydrolique',
+		label = 'Hidráulica',
 		parent = 'cosmetics',
 		modType = 38,
 		price = 5.12
 	},
 	modEngineBlock = {
-		label = 'Bloc moteur',
+		label = 'Bloco do Motor',
 		parent = 'cosmetics',
 		modType = 39,
 		price = 5.12
 	},
 	modAirFilter = {
-		label = 'Filtre a air',
+		label = 'Filtro de Ar',
 		parent = 'cosmetics',
 		modType = 40,
 		price = 3.72
 	},
 	modStruts = {
-		label = 'Struts',
+		label = 'Escoras',
 		parent = 'cosmetics',
 		modType = 41,
 		price = 6.51
 	},
 	modArchCover = {
-		label = 'Cache-roues',
+		label = 'Cobertura de Roda',
 		parent = 'cosmetics',
 		modType = 42,
 		price = 4.19
 	},
 	modAerials = {
-		label = 'Antennes',
+		label = 'Antenas',
 		parent = 'cosmetics',
 		modType = 43,
 		price = 1.12
 	},
 	modTrimB = {
-		label = 'Ailes',
+		label = 'Pára-lamas',
 		parent = 'cosmetics',
 		modType = 44,
 		price = 6.05
 	},
 	modTank = {
-		label = 'Réservoir',
+		label = 'Tanque',
 		parent = 'cosmetics',
 		modType = 45,
 		price = 4.19
 	},
 	modWindows = {
-		label = 'Fenêtres',
+		label = 'Janelas',
 		parent = 'cosmetics',
 		modType = 46,
 		price = 4.19
 	},
 	modLivery = {
-		label = 'Stickers',
+		label = 'Adesivos',
 		parent = 'cosmetics',
 		modType = 48,
 		price = 9.3
