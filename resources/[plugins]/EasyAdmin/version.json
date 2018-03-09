@@ -1,0 +1,4 @@
+{
+    "version":"4.181",
+    "changelog":"This is a hotfix to prevent the webhook from not working at all."
+}

@@ -16,4 +16,5 @@
 # esx_phone
 - Pessoas não estão recebendo chamado do celular
 
-
+# NoPlayerBlips
+- Nome aparecendo para alguns

@@ -192,8 +192,16 @@ AddEventHandler('esx_property:rentProperty', function(propertyName)
 
   local xPlayer  = ESX.GetPlayerFromId(source)
   local property = GetProperty(propertyName)
+  local propertyRentPrice = property.price / 200
 
-  SetPropertyOwned(propertyName, property.price / 200, true, xPlayer.identifier)
+  if propertyRentPrice <= xPlayer.get('money') then
+
+    xPlayer.removeMoney(propertyRentPrice)
+    SetPropertyOwned(propertyName, property.price / 200, true, xPlayer.identifier)
+
+  else
+    TriggerClientEvent('esx:showNotification', source, _U('not_enough'))
+  end
 
 end)
 
