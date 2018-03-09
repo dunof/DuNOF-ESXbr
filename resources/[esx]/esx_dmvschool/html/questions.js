@@ -14,8 +14,8 @@ var tableauQuestion = [
         reponse : "C"},
 
     {   question : "Quando não houver nenhuma indicação, a velocidade máxima permitida em uma área residencial é de: __ km/h",
-        propositionA : "80",
-        propositionB : "50",
+        propositionA : "60",
+        propositionB : "80",
         propositionC : "40",
         propositionD : "120",
         reponse : "A"},
