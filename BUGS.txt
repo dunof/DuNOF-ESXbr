@@ -12,3 +12,6 @@
 
 # NoPlayerBlips
 - Nome aparecendo para alguns
+
+# salty_death
+- Volta vivo com contagem de morto
