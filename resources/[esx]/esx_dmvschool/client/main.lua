@@ -417,7 +417,7 @@ Citizen.CreateThread(function()
               IsAboveSpeedLimit = true
 
               ESX.ShowNotification(_U('driving_too_fast') .. v .. 'km/h')
-              ESX.ShowNotification(_U('erros') .. DriveErrors .. '~s~/' .. Config.MaxErrors)
+              ESX.ShowNotification(_U('errors') .. DriveErrors .. '~s~/' .. Config.MaxErrors)
 
             end
 
@@ -435,7 +435,7 @@ Citizen.CreateThread(function()
           DriveErrors = DriveErrors + 1
 
           ESX.ShowNotification(_U('you_damaged_veh'))
-          ESX.ShowNotification(_U('erros') .. DriveErrors .. '~s~/' .. Config.MaxErrors)
+          ESX.ShowNotification(_U('errors') .. DriveErrors .. '~s~/' .. Config.MaxErrors)
                     LastVehicleHealth = health
 
         end
