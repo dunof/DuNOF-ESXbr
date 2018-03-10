@@ -9,5 +9,6 @@ Locales['br'] = {
 	['clothes'] = 'Loja de Roupas',
 	['you_paid'] = 'você pagou $',
 	['save_in_dressing'] = 'você deseja salvar este traje?',
+	['saved_outfit'] = 'seu traje foi salvo',
 
 }

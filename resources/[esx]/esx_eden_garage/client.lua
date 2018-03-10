@@ -141,7 +141,7 @@ function ListVehiclesMenu()
     		labelvehicle = vehicleName..': Garagem'
     		
     		else
-    		labelvehicle = vehicleName..': Fourriere'
+    		labelvehicle = vehicleName..': Seguradora'
     		end	
 			table.insert(elements, {label =labelvehicle , value = v})
 			
@@ -159,7 +159,7 @@ function ListVehiclesMenu()
 				menu.close()
 				SpawnVehicle(data.current.value.vehicle)
 			else
-				TriggerEvent('esx:showNotification', 'Votre véhicule est a la fourriere')
+				TriggerEvent('esx:showNotification', 'Este veículo está na seguradora')
 			end
 		end,
 		function(data, menu)
