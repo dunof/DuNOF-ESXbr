@@ -198,9 +198,9 @@ Citizen.CreateThread( function()
 						ESX.TriggerServerCallback('esx_skin:getPlayerSkin', function(skin, jobSkin)
 							local sex = nil
 							if skin.sex == 0 then
-								sex = "un homme"
+								sex = "um homem"
 							else
-								sex = "une femme"
+								sex = "uma mulher"
 							end
 							TriggerServerEvent('thiefInProgressPos', plyPos.x, plyPos.y, plyPos.z)
 							local veh = GetVehiclePedIsTryingToEnter(GetPlayerPed(-1))
@@ -229,9 +229,9 @@ Citizen.CreateThread( function()
 						ESX.TriggerServerCallback('esx_skin:getPlayerSkin', function(skin, jobSkin)
 							local sex = nil
 							if skin.sex == 0 then
-								sex = "un homme"
+								sex = "um homem"
 							else
-								sex = "une femme"
+								sex = "uma mulher"
 							end
 							TriggerServerEvent('thiefInProgressPos', plyPos.x, plyPos.y, plyPos.z)
 							local veh = GetVehiclePedIsTryingToEnter(GetPlayerPed(-1))
@@ -265,9 +265,9 @@ Citizen.CreateThread( function()
 				ESX.TriggerServerCallback('esx_skin:getPlayerSkin', function(skin, jobSkin)
 					local sex = nil
 					if skin.sex == 0 then
-						sex = "un homme"
+						sex = "um homem"
 					else
-						sex = "une femme"
+						sex = "uma mulher"
 					end
 					TriggerServerEvent('meleeInProgressPos', plyPos.x, plyPos.y, plyPos.z)
 					if s2 == 0 then
@@ -281,9 +281,9 @@ Citizen.CreateThread( function()
 				ESX.TriggerServerCallback('esx_skin:getPlayerSkin', function(skin, jobSkin)
 					local sex = nil
 					if skin.sex == 0 then
-						sex = "un homme"
+						sex = "um homem"
 					else
-						sex = "une femme"
+						sex = "uma mulher"
 					end
 					TriggerServerEvent('meleeInProgressPos', plyPos.x, plyPos.y, plyPos.z)
 					if s2 == 0 then
@@ -312,9 +312,9 @@ Citizen.CreateThread( function()
 				ESX.TriggerServerCallback('esx_skin:getPlayerSkin', function(skin, jobSkin)
 					local sex = nil
 					if skin.sex == 0 then
-						sex = "un homme"
+						sex = "um homem"
 					else
-						sex = "une femme"
+						sex = "uma mulher"
 					end
 					TriggerServerEvent('gunshotInProgressPos', plyPos.x, plyPos.y, plyPos.z)
 					if s2 == 0 then
