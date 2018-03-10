@@ -15,3 +15,9 @@
 - esx_jailer
 - esx_accessories
 - esx_mecanojob
+
+# esx_dmvschool
+- Alguns erros de tradução, revisar!
+
+# esx_hospital
+- Alguns médicos estão aparecendo fora da marca
