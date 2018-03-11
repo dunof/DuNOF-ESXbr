@@ -1403,3 +1403,10 @@ Citizen.CreateThread(function()
 
   end
 end)
+
+-- esx_aiomenu
+function openInventory()
+    if not ESX.UI.Menu.IsOpen('default', 'es_extended', 'inventory') then
+      ESX.ShowInventory()
+    end
+end

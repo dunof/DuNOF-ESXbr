@@ -70,3 +70,11 @@ Citizen.CreateThread(function()
 		end
 	end
 end)
+
+-- esx_aiomenu
+function openInvoices()
+  	if not ESX.UI.Menu.IsOpen('default', GetCurrentResourceName(), 'billing') and (GetGameTimer() - GUI.Time) > 150 then
+  		ShowBillsMenu()
+	  	GUI.Time  = GetGameTimer()
+    end
+end

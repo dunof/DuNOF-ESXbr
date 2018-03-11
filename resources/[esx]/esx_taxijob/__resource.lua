@@ -23,3 +23,7 @@ server_scripts {
   'config.lua',
   'server/main.lua'
 }
+
+exports {
+  'openTaxi'
+}

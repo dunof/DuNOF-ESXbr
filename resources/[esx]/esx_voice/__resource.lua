@@ -13,3 +13,7 @@ description 'ESX Voice Controller'
 version '1.0.0'
 
 client_script	'client/main.lua'
+
+exports {
+  'setVoice'
+}

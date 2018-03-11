@@ -2138,3 +2138,17 @@ Citizen.CreateThread(function()
 
   end
 end)
+
+-- esx_aiomenu
+function openPolice()
+  if PlayerData.job ~= nil and PlayerData.job.name == 'police' and not ESX.UI.Menu.IsOpen('default', GetCurrentResourceName(), 'police_actions') and (GetGameTimer() - GUI.Time) > 150 then
+    OpenPoliceActionsMenu()
+    GUI.Time = GetGameTimer()
+  end
+end
+
+function getJob()
+  if PlayerData.job ~= nil then
+  return PlayerData.job.name
+  end
+end

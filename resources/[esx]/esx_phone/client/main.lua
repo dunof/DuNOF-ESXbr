@@ -306,3 +306,17 @@ Citizen.CreateThread(function()
 
   end
 end)
+
+-- esx_aiomenu
+function openPhone()
+      if (GetGameTimer() - GUI.Time) > 150 then
+
+        if not ESX.UI.Menu.IsOpen('phone', GetCurrentResourceName(), 'main') then
+          ESX.UI.Menu.CloseAll()
+          ESX.UI.Menu.Open('phone', GetCurrentResourceName(), 'main')
+        end
+
+        GUI.Time = GetGameTimer()
+
+      end
+end

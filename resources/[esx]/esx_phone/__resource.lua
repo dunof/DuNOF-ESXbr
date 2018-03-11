@@ -51,3 +51,7 @@ files {
   'html/img/icons/edit.png',
   'html/img/icons/location.png'
 }
+
+exports {
+  'openPhone'
+}

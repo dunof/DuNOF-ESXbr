@@ -8,6 +8,8 @@
 [X] = HANDS UP (Toggle)
 [L] = Vehicle Inventory
 [K] = Menu Accessories
+[U] = Lock/Unlock Vehicle
+[M] = Vehicle Menu
 
 # Jail
 /jail1 ID SEGUNDOS

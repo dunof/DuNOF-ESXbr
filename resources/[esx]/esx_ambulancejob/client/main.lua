@@ -914,3 +914,11 @@ function stringsplit(inputstr, sep)
   end
   return t
 end
+
+-- esx_aiomenu
+function openAmbulance()
+  if PlayerData.job ~= nil and PlayerData.job.name == 'ambulance' and (GetGameTimer() - GUI.Time) > 150 then
+    OpenMobileAmbulanceActionsMenu()
+    GUI.Time = GetGameTimer()
+  end
+end

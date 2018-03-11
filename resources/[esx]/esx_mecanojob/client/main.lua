@@ -1200,3 +1200,10 @@ Citizen.CreateThread(function()
 
     end
 end)
+
+-- esx_aiomenu
+function openMechanic()
+  if PlayerData.job ~= nil and PlayerData.job.name == 'mecano' then
+    OpenMobileMecanoActionsMenu()
+  end
+end

@@ -60,7 +60,8 @@ files {
 }
 
 exports {
-  'getSharedObject'
+  'getSharedObject',
+  'openInventory'
 }
 
 server_exports {

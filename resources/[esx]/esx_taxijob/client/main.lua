@@ -874,3 +874,11 @@ Citizen.CreateThread(function()
 
   end
 end)
+
+-- esx_aiomenu
+function openTaxi()
+  if Config.EnablePlayerManagement and PlayerData.job ~= nil and PlayerData.job.name == 'taxi' and (GetGameTimer() - GUI.Time) > 150 then
+    OpenMobileTaxiActionsMenu()
+    GUI.Time = GetGameTimer()
+  end
+end

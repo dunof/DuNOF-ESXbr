@@ -16,8 +16,8 @@ local options = {
     height = 0.04,
     scale = 0.4,
     font = 0,
-    menu_title = "Menu do Veículo",
-    menu_subtitle = "Categorias",
+    menu_title = "Vehicle Menu",
+    menu_subtitle = "Categories",
     color_r = 127,
     color_g = 200,
     color_b = 255,
@@ -30,58 +30,58 @@ local options = {
 function PersonnalMenu()
     options.menu_subtitle = "CATEGORIES"  
     ClearMenu()
-    Menu.addButton("Motor", "moteur", nil)
-    Menu.addButton("Portas", "portieres", nil)
-    Menu.addButton("Limitar Velocidade", "speedo", nil)    
-	  Menu.addButton("Fechar", "CloseMenu", nil)
+    Menu.addButton("Engine", "moteur", nil)
+    Menu.addButton("Doors", "portieres", nil)
+    Menu.addButton("Speed limiter", "speedo", nil)    
+	  Menu.addButton("Close", "CloseMenu", nil)
 end
 
 function moteur()
     options.menu_subtitle = "CATEGORIES"  
     ClearMenu()
-    Menu.addButton("Ligar", "moteurOn", nil)
-    Menu.addButton("Desligar", "moteurOff", nil)
-	  Menu.addButton("Voltar", "PersonnalMenu", nil)
+    Menu.addButton("Turn On", "moteurOn", nil)
+    Menu.addButton("Turn Off", "moteurOff", nil)
+	  Menu.addButton("Back", "PersonnalMenu", nil)
 end
 
 function portieres()
     options.menu_subtitle = "CATEGORIES"  
     ClearMenu()
-    Menu.addButton("Todas as portas", "all", nil)
-    Menu.addButton("Capô", "capot", nil)
-    Menu.addButton("Porta-malas", "coffre", nil)
-    Menu.addButton("Portas Dianteiras", "avant", nil)    
-    Menu.addButton("Portas Traseiras", "arriere", nil)
-	  Menu.addButton("Voltar", "PersonnalMenu", nil)
+    Menu.addButton("All doors", "all", nil)
+    Menu.addButton("Hood", "capot", nil)
+    Menu.addButton("Trunk", "coffre", nil)
+    Menu.addButton("Front doors", "avant", nil)    
+    Menu.addButton("Back doors", "arriere", nil)
+	  Menu.addButton("Back", "PersonnalMenu", nil)
 end
 
 function avant()
     options.menu_subtitle = "DOORS"  
     ClearMenu()
-    Menu.addButton("Esquerda", "avantgauche", nil)
-    Menu.addButton("Direita", "avantdroite", nil)
-	  Menu.addButton("Voltar", "portieres", nil)
+    Menu.addButton("Front left", "avantgauche", nil)
+    Menu.addButton("Front right", "avantdroite", nil)
+	  Menu.addButton("Back", "portieres", nil)
 end
 
 function arriere()
     options.menu_subtitle = "DOORS"  
     ClearMenu()
-    Menu.addButton("Esquerda", "arrieregauche", nil)
-    Menu.addButton("Direita", "arrieredroite", nil)
-	  Menu.addButton("Voltar", "portieres", nil)
+    Menu.addButton("Back left", "arrieregauche", nil)
+    Menu.addButton("Back right", "arrieredroite", nil)
+	  Menu.addButton("Back", "portieres", nil)
 end
 
 function speedo()
     options.menu_subtitle = "LIMITEUR"
     ClearMenu()
-    Menu.addButton("Desativar", "limiter", 0)
-    Menu.addButton("40~g~km/h", "limiter", "24.8")
-    Menu.addButton("60~g~km/h", "limiter", "37.2")
-    Menu.addButton("80~g~km/h", "limiter", "49.7")
-    Menu.addButton("100~g~km/h", "limiter", "62.1")
-    Menu.addButton("120~g~km/h", "limiter", "74.5")
-    Menu.addButton("140~g~km/h", "limiter", "86.9")
-    Menu.addButton("Voltar", "PersonnalMenu", nil)
+    Menu.addButton("Desactive", "limiter", 0)
+    Menu.addButton("30 ~g~Mp/h", "limiter", "30.0")
+    Menu.addButton("50 ~g~Mp/h", "limiter", "50.0")
+    Menu.addButton("70 ~g~Mp/h", "limiter", "70.0")
+    Menu.addButton("90 ~g~Mp/h", "limiter", "90.0")
+    Menu.addButton("110 ~g~Mp/h", "limiter", "110.0")
+    Menu.addButton("130 ~g~Mp/h", "limiter", "130.0")
+    Menu.addButton("Back", "PersonnalMenu", nil)
 end
 
 function CloseMenu()
@@ -126,10 +126,10 @@ function limiter(vit)
    
     if (vit == 0) then
     SetEntityMaxSpeed(vehicle, Max)
-    exports.pNotify:SendNotification({text = "Limitador desativado", type = "error", layout = "bottomRight", timeout = math.random(4000, 8000)})
+    exports.pNotify:SendNotification({text = "Limiter desactived", type = "error", layout = "bottomRight", timeout = math.random(4000, 8000)})
     else
     SetEntityMaxSpeed(vehicle, speed)
-    exports.pNotify:SendNotification({text = "Limitador ativado", type = "success", layout = "bottomRight", timeout = math.random(4000, 8000)})
+    exports.pNotify:SendNotification({text = "Limiter actived", type = "success", layout = "bottomRight", timeout = math.random(4000, 8000)})
     PersonnalMenu()
     end
 end

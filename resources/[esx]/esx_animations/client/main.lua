@@ -180,3 +180,8 @@ Citizen.CreateThread(function()
 
   end
 end)
+
+-- esx_aiomenu
+function openAnimations()
+  OpenAnimationsMenu()
+end

@@ -62,3 +62,18 @@ Citizen.CreateThread(function()
     end
   end
 end)
+
+-- esx_aiomenu
+function setVoice()
+      voice.current = (voice.current + 1) % 3
+      if voice.current == 0 then
+        NetworkSetTalkerProximity(voice.default)
+        voice.level = "Normal"
+      elseif voice.current == 1 then
+        NetworkSetTalkerProximity(voice.shout)
+        voice.level = "Gritar"
+      elseif voice.current == 2 then
+        NetworkSetTalkerProximity(voice.whisper)
+        voice.level = "Sussurrar"
+      end
+end
