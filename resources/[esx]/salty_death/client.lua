@@ -34,6 +34,7 @@ end)
 
 AddEventHandler("playerSpawned", function()
 	if firstSpawn then
+		Wait(10000) -- 5000 is five seconds, change to your needs
 		ESX.TriggerServerCallback('salty_death:isDead', function(isDeadDB)
 			if isDeadDB then
 				killPlayer()
