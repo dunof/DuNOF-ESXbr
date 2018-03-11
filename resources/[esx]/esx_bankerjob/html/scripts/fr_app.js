@@ -19,9 +19,9 @@
 	let CustomersTpl = 
 		'<thead>' +
 			'<tr>' +
-				'<td>Cliente</td>' +
-				'<td>Saldo</td>' +
-				'<td>Ações</td>' +
+				'<td>Client</td>' +
+				'<td>Solde</td>' +
+				'<td>Actions</td>' +
 			'</tr>' +
 		'</thead>' +
 		'<tbody>' +
@@ -30,8 +30,8 @@
 				'<td>{{name}}</td>' +
 				'<td>${{bank_savings}}</td>' +
 				'<td>' +
-					'<button class="transfer-btn" data-identifier="{{identifier}}">Transferência</button>' +
-					'<button class="withdraw-btn" data-identifier="{{identifier}}">Saque</button>' +
+					'<button class="transfer-btn" data-identifier="{{identifier}}">Virement</button>' +
+					'<button class="withdraw-btn" data-identifier="{{identifier}}">Retrait</button>' +
 				'</td>' +
 			'</tr>' +
 		'{{/customers}}' +
@@ -48,9 +48,9 @@
 		 	template  : DefaultTpl,
 
 		  items: [
-		  	{label: 'Clientes',                value: 'customers'},
-		  	{label: 'Sacar dinheiro da Sociedade', value: 'withdraw_society_money'},
-		  	{label: 'Lavar dinheiro sujo',  value: 'wash_money'}
+		  	{label: 'Clients',                value: 'customers'},
+		  	{label: 'Retirer argent société', value: 'withdraw_society_money'},
+		  	{label: 'Blanchir de l\'argent',  value: 'wash_money'}
 		  ]
 		},
 

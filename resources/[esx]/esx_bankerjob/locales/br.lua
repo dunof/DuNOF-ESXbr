@@ -19,5 +19,5 @@ Locales['br'] = {
   ['withdraw_amount']                   = 'quantidade para sacar',
   ['withdraw_society_money']            = 'sacar dinheiro da sociedade',
   ['bank_customer']                     = 'cliente do Banco',
-  ['boss_actions']                      = 'ácoes de Chefe',
+  ['boss_actions']                      = 'ações de Chefe',
 }
