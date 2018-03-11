@@ -5,6 +5,12 @@
 - Adicionar itens
 - Colocar Blips diferentes para bares
 
+# esx_advancedinventory
+- Configurar peso dos itens
+
+# esx_vehicle_inventory
+- Configurar peso dos itens
+
 # esx_jailer
 - Testar!
 
@@ -25,3 +31,4 @@
 - esx_vehicle_inventory
 - esx_jailer
 - esx_dmvschool
+- esx_vehicle_inventory

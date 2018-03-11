@@ -11,6 +11,8 @@
 [U] = Lock/Unlock Vehicle
 [M] = Vehicle Menu
 
+[PAGE UP] = AIO Menu
+
 # Jail
 /jail1 ID SEGUNDOS
 /jail2 ID SEGUNDOS
