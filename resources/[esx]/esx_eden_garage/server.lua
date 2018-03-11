@@ -112,7 +112,7 @@ AddEventHandler('eden_garage:pay', function()
 
 	xPlayer.removeMoney(Config.Price)
 
-	TriggerClientEvent('esx:showNotification', source, 'Vous avez payé ' .. Config.Price)
+	TriggerClientEvent('esx:showNotification', source, 'você pagou ' .. Config.Price)
 
 end)
 --Fin fonction qui retire argent
