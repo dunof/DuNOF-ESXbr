@@ -31,8 +31,8 @@ Locales['br'] = {
 	
 	-- Depend to the company
 	['vigneron_client'] = 'cliente Vinícula',
-	['transforming_in_progress'] = 'processamento da uva em andamento ... ',
-	['raisin_taken'] = 'você está colhendo uvas',
+	['transforming_in_progress'] = 'processamento da uva em andamento... ',
+	['raisin_taken'] = 'você começou a colher algumas uvas',
 	['press_traitement'] = 'pressione ~INPUT_CONTEXT~ para processar a uva',
 	['press_collect'] = 'pressione ~INPUT_CONTEXT~ para coletar a uva',
 	['press_sell'] = 'pressione ~INPUT_CONTEXT~ para vender seus produtos',

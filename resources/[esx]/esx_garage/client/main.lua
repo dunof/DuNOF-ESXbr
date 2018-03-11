@@ -37,7 +37,7 @@ AddEventHandler('esx_property:hasEnteredMarker', function(name, part, parking)
 			local healthPercent = (health / maxHealth) * 100
 
 			if healthPercent < Config.MinimumHealthPercent then
-				ESX.ShowNotification('Vous devez d\'abord réparer votre véhicule')
+				ESX.ShowNotification('você precisa reparar seu veículo')
 			else
 
 				if GetPedInVehicleSeat(vehicle,  -1) == playerPed then

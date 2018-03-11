@@ -22,7 +22,7 @@ INSERT INTO `job_grades` (job_name, grade, name, label, salary, skin_male, skin_
 
 
 INSERT INTO `items` (`name`, `label`) VALUES
-	('raisin', 'Uvas'),
+	('raisin', 'Uva'),
 	('jus_raisin', 'Suco de uva'),
 	('grand_cru', 'Garrafa Vintage'),
 	('vine', 'Vinho')

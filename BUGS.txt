@@ -1,5 +1,6 @@
 # esx_jobs
 - Refinador: não pega o uniforme nem o caminhão
+- Lenhador: não pega o uniforme
 
 # esx_drugs
 - Opium Farm - Map bug
@@ -15,3 +16,6 @@
 
 # salty_death
 - Volta vivo com contagem de morto
+
+# esx_outlawalert
+- Quando dá soco mostra no mapa da polícia, quando atira não

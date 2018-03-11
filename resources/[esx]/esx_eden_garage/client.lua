@@ -159,7 +159,7 @@ function ListVehiclesMenu()
 				menu.close()
 				SpawnVehicle(data.current.value.vehicle)
 			else
-				TriggerEvent('esx:showNotification', 'Este veículo está na seguradora')
+				TriggerEvent('esx:showNotification', 'este veículo está na seguradora')
 			end
 		end,
 		function(data, menu)
@@ -207,7 +207,7 @@ end
 function ranger(vehicle,vehicleProps)
 	ESX.Game.DeleteVehicle(vehicle)
 	TriggerServerEvent('eden_garage:modifystate', vehicleProps, true)
-	TriggerEvent('esx:showNotification', 'Seu veículo foi guardado na garagem')
+	TriggerEvent('esx:showNotification', 'seu veículo foi guardado na garagem')
 end
 
 -- Fonction qui permet de rentrer un vehicule
@@ -226,7 +226,7 @@ function StockVehicleMenu()
 
 			if (valid) then
 				TriggerServerEvent('eden_garage:debug', "placa do veículo retornado a garagem: "  .. vehicleProps.plate)
-				TriggerServerEvent('eden_garage:logging',"santee vehicule rentree au garage: " .. engineHealth)
+				TriggerServerEvent('eden_garage:logging',"veículo santee retornado para a a garagem: " .. engineHealth)
 				if engineHealth < 1000 then
 			        local fraisRep= math.floor((1000 - engineHealth)*100)			      
 			        reparation(fraisRep,vehicle,vehicleProps)
@@ -234,11 +234,11 @@ function StockVehicleMenu()
 			    	ranger(vehicle,vehicleProps)
 			    end	
 			else
-				TriggerEvent('esx:showNotification', 'Você não pode armazenar este veículo')
+				TriggerEvent('esx:showNotification', 'você não pode armazenar este veículo')
 			end
 		end,vehicleProps)
 	else
-		TriggerEvent('esx:showNotification', 'Il n\' y a pas de vehicule à rentrer')
+		TriggerEvent('esx:showNotification', 'não há veículos para acessar')
 	end
 
 end
@@ -304,7 +304,7 @@ AddEventHandler('eden_garage:hasEnteredMarker', function(zone)
 	
 	if zone == 'pound' then
 		CurrentAction     = 'pound_action_menu'
-		CurrentActionMsg  = "Appuyer sur ~INPUT_PICKUP~ pour acceder a la fourriere"
+		CurrentActionMsg  = "pressione ~INPUT_PICKUP~ para acessar a seguradora"
 		CurrentActionData = {}
 	end
 end)
@@ -355,7 +355,7 @@ function ReturnVehicleMenu()
 						end)
 					end
 				else
-					ESX.ShowNotification('Vous n\'avez pas assez d\'argent')						
+					ESX.ShowNotification('você não tem dinheiro suficiente!')						
 				end
 			end)
 		end,
