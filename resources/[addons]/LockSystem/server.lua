@@ -6,7 +6,7 @@ local randomMsg = {	"Você encontrou a chave no quebra-sol",
     				"As chaves estavam na ignição, você só pegou elas."}
 
 RegisterServerEvent("ls:check")
-AddEventHandler("ls:check" function(plate, vehicleId, isPlayerInside, notifParam)
+AddEventHandler("ls:check", function(plate, vehicleId, isPlayerInside, notifParam)
 
 	playerIdentifier = GetPlayerIdentifiers(source)[1]
 
