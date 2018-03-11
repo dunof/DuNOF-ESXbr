@@ -32,3 +32,4 @@
 - esx_jailer
 - esx_dmvschool
 - esx_vehicle_inventory
+- esx_aiomenu
