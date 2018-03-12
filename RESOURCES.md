@@ -26,6 +26,7 @@ LOJAS
 - Armas
 - Roupas
 - Barbearia
+- Tattoos
 - Conveniência
 - Concessionária
 - LS Customs
@@ -63,6 +64,7 @@ OUTROS
 - Bússola
 - Recoil Melhorado
 - Armas sem Mira de Ponto
+- Mecânica de Mira estilo PUBG
 - Tráfego da AI realista (um pouco menos ofensivo)
 - Alguns NPC's tem, mas não dropam as armas
 - Veículos não dão mais armas
