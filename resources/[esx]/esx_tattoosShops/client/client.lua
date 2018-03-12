@@ -138,7 +138,7 @@ function addBlips()
 		local blip = AddBlipForCoord(k.x, k.y, k.z)
 		SetBlipSprite		(blip, 75)
 		SetBlipScale		(blip, 0.8)
-		SetBlipColour		(blip, 1)
+		SetBlipColour		(blip, 76)
 		SetBlipAsShortRange	(blip, true)
 
 		BeginTextCommandSetBlipName("STRING")

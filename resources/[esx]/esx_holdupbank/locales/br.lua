@@ -2,7 +2,7 @@ Locales['br'] = {
 
 	['robbery_cancelled'] = 'O assalto será cancelado, você não ganhará nada!',
 	['robbery_successful'] = 'O assalto foi um sucesso. Você ganhou ~g~R$',
-	['bank_robbery'] = 'Banco Roubável',
+	['bank_robbery'] = 'Cofre do Banco',
 	['press_to_rob'] = 'pressione ~INPUT_CONTEXT~ para roubar ~b~',
 	['robbery_of'] = 'Assalto ao Banco: ~r~',
 	['seconds_remaining'] = '~w~ segundos restantes',
