@@ -69,6 +69,7 @@ OUTROS
 - Alguns NPC's tem, mas não dropam as armas
 - Veículos não dão mais armas
 - Sem policiais NPC
+- Apontar/Agachar/Erguer as Mãos
 
 
 MAPA

@@ -11,6 +11,7 @@
 [K] 		= Menu Accessories
 [H] 		= Sell Drugs to NPC
 [Y]			= Cruise Control
+[B] 		= Pointfinger
 
 # Jail
 /jail1 ID SEGUNDOS
