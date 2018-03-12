@@ -17,6 +17,7 @@ Citizen.CreateThread(function ()
 		garageCoords = vehicleWashStation[i]
 		stationBlip = AddBlipForCoord(garageCoords[1], garageCoords[2], garageCoords[3])
 		SetBlipSprite(stationBlip, 100) -- 100 = carwash
+		SetBlipColour(stationBlip, 53)
 		SetBlipAsShortRange(stationBlip, true)
 	end
     return
