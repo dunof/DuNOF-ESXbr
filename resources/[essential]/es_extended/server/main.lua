@@ -422,7 +422,8 @@ AddEventHandler('esx:removeInventoryItem', function(type, itemName, itemCount)
 
           if total > 0 then
             xPlayer.removeInventoryItem(itemName, total)
-            ESX.CreatePickup('item_standard', itemName, total, foundItem.label .. ' [' .. itemCount .. ']', _source)
+-- Não jogar mais o item no chão           
+--            ESX.CreatePickup('item_standard', itemName, total, foundItem.label .. ' [' .. itemCount .. ']', _source)
             TriggerClientEvent('esx:showNotification', _source, _U('threw') .. ' ' .. foundItem.label .. ' x' .. total)
           end
 

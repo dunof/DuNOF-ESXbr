@@ -1,20 +1,16 @@
 ---------- VARIABLES ----------
-
-
 local treatment = false
-
-
-local timer = false
+local timer     = false
 
 
 local blips = {
-    {name="Consulta Médica", id=153, x = 338.85, y = -1394.56, z = 31.51, color = 1, heading=49.404, scale=0.6 },
-    {name="Consulta Médica", id=153, x = 246.47717285156, y = -1365.7154541016, z = 28.647993087769, color= 1, heading=221.25, scale=0.6},
-    {name="Consulta Médica", id=153, x = -874.79931640625, y = -307.5654296875, z = 38.580024719238, color= 1, heading=350.95, scale=0.6},
-    {name="Consulta Médica", id=153, x = -496.97717285156, y = -336.14242553711, z = 33.501697540283, color= 1, heading=253.92, scale=0.6},
-    {name="Consulta Médica", id=153, x = 298.70138549805, y = -584.62774658203, z = 42.260841369629, color= 1, heading=75.49, scale=0.6},
-    {name="Consulta Médica", id=153, x = 1839.5194091797, y = 3672.591796875, z = 33.276710510254, color= 1, heading=214.90, scale=0.6},
-    {name="Consulta Médica", id=153, x = -246.98889160156, y = 6330.5834960938, z = 31.426147460938, color= 1, heading=221.37, scale=0.6},
+    { name="Consulta Médica", id=153, x = 338.85,            y = -1394.56,           z = 31.51,           color = 1,  heading = 49.404, scale = 0.6 },
+--    { name="Consulta Médica", id=153, x = 246.47717285156,   y = -1365.7154541016,   z = 28.647993087769, color = 69, heading = 221.25, scale = 0.6 },
+    { name="Consulta Médica", id=153, x = -874.79931640625,  y = -307.5654296875,    z = 38.580024719238, color = 69, heading = 350.95, scale = 0.6 },
+    { name="Consulta Médica", id=153, x = -496.97717285156,  y = -336.14242553711,   z = 33.501697540283, color = 69, heading = 253.92, scale = 0.6 },
+    { name="Consulta Médica", id=153, x = 298.70138549805,   y = -584.62774658203,   z = 42.260841369629, color = 69, heading = 75.49,  scale = 0.6 },
+    { name="Consulta Médica", id=153, x = 1839.5194091797,   y = 3672.591796875,     z = 33.276710510254, color = 69, heading = 214.90, scale = 0.6 },
+    { name="Consulta Médica", id=153, x = -246.98889160156,  y = 6330.5834960938,    z = 31.426147460938, color = 69, heading = 221.37, scale = 0.6 },
 }
 
 
