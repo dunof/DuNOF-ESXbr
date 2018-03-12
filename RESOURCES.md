@@ -83,4 +83,4 @@ CARROS
 SEGURANÇA
 - Anti-cheat
 - Kick de AFK (15 minutos)
-- Kick de Ping Alto
+- Kick de Ping Alto (200ms até 5 chances)
