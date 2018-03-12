@@ -86,7 +86,7 @@ function OpenStealMenu(target, target_id)
         {
             title  = _U('target_inventory'),
             elements = elements,
-            align = 'top-left'
+            align = 'bottom-right'
         },
         function(data, menu)
 
@@ -101,7 +101,7 @@ function OpenStealMenu(target, target_id)
                 ESX.UI.Menu.Open('default', GetCurrentResourceName(), 'steal_inventory_item',
                     {
                         title = _U('action_choice'),
-                        align = "top-left",
+                        align = 'bottom-right',
                         elements = elements
                     },
                     function(data2, menu2)
@@ -112,7 +112,8 @@ function OpenStealMenu(target, target_id)
                                 ESX.UI.Menu.Open(
                                     'dialog', GetCurrentResourceName(), 'steal_inventory_item_standard',
                                     {
-                                      title = _U('amount')
+                                      title = _U('amount'),
+									  align = 'bottom-right'
                                     },
                                     function(data3, menu3)
                                         local quantity = tonumber(data3.value)

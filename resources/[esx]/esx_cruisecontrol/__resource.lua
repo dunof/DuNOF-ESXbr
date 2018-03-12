@@ -9,9 +9,9 @@ dependencies {
 client_scripts {
   '@es_extended/locale.lua',
   'locales/br.lua',
-  'locales/fr.lua',
-  'locales/en.lua',
-  'locales/ge.lua',
+--  'locales/fr.lua',
+--  'locales/en.lua',
+--  'locales/ge.lua',
   'client/main.lua',
   'config.lua',
 }
