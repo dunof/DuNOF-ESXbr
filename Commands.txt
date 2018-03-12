@@ -6,7 +6,7 @@
 
 [PAGE UP] 	= AIO Menu
 [X] 		= HANDS UP (Toggle)
-[G]			= THIEF
+[G]			= Thief
 [L] 		= Vehicle Inventory
 [K] 		= Menu Accessories
 [H] 		= Sell Drugs to NPC
