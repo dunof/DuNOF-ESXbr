@@ -9,6 +9,7 @@
 [L] 		= Vehicle Inventory
 [K] 		= Menu Accessories
 [H] 		= Sell Drugs to NPC
+[Y]			= Cruise Control
 
 # Jail
 /jail1 ID SEGUNDOS
