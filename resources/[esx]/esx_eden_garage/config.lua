@@ -140,7 +140,7 @@ Config.Garages = {
 			Marker = 1
 		},
 	},
-		Garage_Aeroport = {
+	Garage_Aeroport = {
 		Name	= "Garagem Pública",	
 		Pos = {x = -977.21661376953,y = -2710.3798828125,z = 12.853487014771 },
 		Size  = {x = 3.0, y = 3.0, z = 1.0},
@@ -167,6 +167,20 @@ Config.Garages = {
 		SpawnMunicipalPoundPoint = {
 			Pos = {x = -1048.3468017578,y = -2669.771484375,z = 12.830758094788 },
 			Color = {r=0,g=255,b=0},
+			Size  = {x = 3.0, y = 3.0, z = 1.0},
+			Marker = 1
+		},
+	},
+	Garage_Teste = {
+		SpawnPoint = {
+			Pos = {x = 306.55072021484,y = -1085.5913085938,z = 28.651996612548 },
+			Color = {r=0,g=255,b=0},
+			Size  = {x = 3.0, y = 3.0, z = 1.0},
+			Marker = 1
+		},
+		DeletePoint = {
+			Pos = {x = 306.1573791504,y = -1090.23828125,z = 29.400638580322 },
+			Color = {r=255,g=0,b=0},
 			Size  = {x = 3.0, y = 3.0, z = 1.0},
 			Marker = 1
 		},
