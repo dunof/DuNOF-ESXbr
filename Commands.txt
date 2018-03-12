@@ -1,17 +1,14 @@
 [HOME] = ES_ADMIN2
 
+[F1] 		= Cellphone
+[F2] 		= Inventory
+[F3] 		= Animations --# [F3] Stop Animation (default: X)
 
-[F1] = Cellphone
-[F2] = Inventory
-[F3] = Animations --# [F3] Stop Animation (default: X)
-
-[X] = HANDS UP (Toggle)
-[L] = Vehicle Inventory
-[K] = Menu Accessories
-[U] = Lock/Unlock Vehicle
-[M] = Vehicle Menu
-
-[PAGE UP] = AIO Menu
+[PAGE UP] 	= AIO Menu
+[X] 		= HANDS UP (Toggle)
+[L] 		= Vehicle Inventory
+[K] 		= Menu Accessories
+[H] 		= Sell Drugs to NPC
 
 # Jail
 /jail1 ID SEGUNDOS

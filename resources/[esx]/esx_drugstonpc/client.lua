@@ -117,7 +117,7 @@ while true do
     if distance > 6 then
       exports.pNotify:SetQueueMax("left", 1)
       exports.pNotify:SendNotification({
-        text = "Venda cancelada: Você está muito longe agora.",
+        text = "Venda cancelada: você está muito longe agora.",
         type = "error",
         timeout = math.random(100, 3500),
         layout = "centerLeft",

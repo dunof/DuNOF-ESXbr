@@ -132,7 +132,7 @@ AddEventHandler('esx_truck_inventory:getInventoryLoaded', function(inventory,wei
   TriggerServerEvent("esx_truck_inventory:getOwnedVehicule")
 
 	table.insert(elements, {
-      label     = 'Depósito',
+      label     = 'Guardar no Porta-malas',
       count     = 0,
       value     = 'deposit',
     })
