@@ -417,7 +417,7 @@ end)
 if Config.EnablePvCommand then
   TriggerEvent('es:addCommand', 'pv', function (source, args, user)
     TriggerClientEvent('esx_vehicleshop:openPersonnalVehicleMenu', source)
-  end, {help = _U('leaving')})
+  end, {help = _U('pvc')})
 end
 
 function PayRent (d, h, m)

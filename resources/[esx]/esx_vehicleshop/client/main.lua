@@ -544,6 +544,11 @@ function OpenPersonnalVehicleMenu ()
 
         menu.close()
 
+        -- DuNOF Modification
+        xPlayer.removeMoney(1000)
+        ESX.ShowNotification(_U('pay_cardelivery'))
+        Wait(12000)
+
         ESX.Game.SpawnVehicle(vehicleData.model, {
           x = coords.x,
           y = coords.y,

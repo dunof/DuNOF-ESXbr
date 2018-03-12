@@ -57,4 +57,6 @@ Locales['br'] = {
   ['dealer_customers']        = 'clientes revendedores',
   ['have_withdrawn']          = 'você se retirou ',
   ['added']                   = 'você adicionou ',
+  ['pvc']                     = 'Pague uma taxa e receba seu veículo',
+  ['pay_cardelivery']         = 'Você pagou R$1000 para receber seu veículo, ele chegará em 2 minutos',
 }
