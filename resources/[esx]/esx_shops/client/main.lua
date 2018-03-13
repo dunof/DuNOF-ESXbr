@@ -84,11 +84,10 @@ Citizen.CreateThread(function()
 		local blip = AddBlipForCoord(v.Pos[i].x, v.Pos[i].y, v.Pos[i].z)
 		SetBlipSprite (blip, 52)
 		SetBlipDisplay(blip, 4)
-		SetBlipScale  (blip, 0.8)
---		SetBlipColour (blip, 46)
+		SetBlipScale  (blip, 0.1)
+		SetBlipColour (blip, 2)
 		SetBlipAsShortRange(blip, true)
 		BeginTextCommandSetBlipName("STRING")
-		AddTextComponentString(_U('shops'))
 		EndTextCommandSetBlipName(blip)
 		end
 	end
