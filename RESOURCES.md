@@ -70,7 +70,7 @@ OUTROS
 - Veículos não dão mais armas
 - Sem policiais NPC
 - Apontar/Agachar/Erguer as Mãos
-
+- Apenas 30% de chance de conseguir roubar um veículo
 
 MAPA
 - Favela VagnerZN

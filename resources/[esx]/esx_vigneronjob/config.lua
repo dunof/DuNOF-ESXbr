@@ -11,7 +11,7 @@ Config.Zones = {
 		Pos   = {x = -1809.662, y = 2210.119, z = 90.681},
 		Size  = {x = 3.5, y = 3.5, z = 2.0},
 		Color = {r = 136, g = 243, b = 216},
-		Name  = "Colheita de uvas",
+		Name  = "Colheita de Uvas",
 		Type  = 1
 	},
 
@@ -20,7 +20,7 @@ Config.Zones = {
 		Pos   = {x = -53.116, y = 1903.248, z = 194.361},
 		Size  = {x = 3.5, y = 3.5, z = 2.0},
 		Color = {r = 136, g = 243, b = 216},
-		Name  = "Fábrica de Suco",
+		Name  = "Vinícola",
 		Type  = 1
 	},
 
@@ -28,7 +28,7 @@ Config.Zones = {
 		Pos   = {x = 811.337, y = 2179.402, z = 51.388},
 		Size  = {x = 3.5, y = 3.5, z = 2.0},
 		Color = {r = 136, g = 243, b = 216},
-		Name  = "Vinícola",
+		Name  = "Fábrica de Suco",
 		Type  = 1
 	},
 	

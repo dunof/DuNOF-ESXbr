@@ -5,6 +5,9 @@
 - Adicionar itens
 - Colocar Blips diferentes para bares
 
+# esx_vigneronjob
+- não está totalmente traduzido
+
 # esx_advancedinventory
 - Configurar peso dos itens
 
