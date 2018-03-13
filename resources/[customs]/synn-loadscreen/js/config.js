@@ -9,14 +9,14 @@ var config =
     /* 
         Relative path the the logo we want to display.
     */
-    image: "img/logo.png",
+    image: "img/logo01.png",
 
     /*
         How big should the logo be?
         The values are: [width, height].
         Recommended to use square images less than 1024px.
     */
-    imageSize: [512, 512],
+    imageSize: [500, 126],
 
     /*
         Define the progressbar type
@@ -96,8 +96,8 @@ var config =
     */
     music:
     [
-        "2zVwbgXaMRo", "iEZK28Qd8nU", "lDf5SKw1qY8", "llAVXSyskPc",
-        "T1xliAwtzRc", "QkDIrJUeRq0", "E1nBw1IwCI8", "wzAq_wbVT9A"
+        "VZi5394SzFI", "4GFAZBKZVJY", "4LfJnj66HVQ", "KuMF4EvYsuc",
+        "RzC0mRQ6rMU", "tvTRZJ-4EyI", "E5ONTXHS2mM", "7LnBvuzjpr4"
     ],
 
 
