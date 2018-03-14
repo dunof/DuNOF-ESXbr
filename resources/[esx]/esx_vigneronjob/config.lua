@@ -1,8 +1,8 @@
 Config                            = {}
 Config.DrawDistance               = 100.0
 Config.MaxInService               = -1
-Config.EnablePlayerManagement     = false
-Config.EnableSocietyOwnedVehicles = false
+Config.EnablePlayerManagement     = true
+Config.EnableSocietyOwnedVehicles = true
 Config.Locale                     = 'br'
 
 Config.Zones = {
