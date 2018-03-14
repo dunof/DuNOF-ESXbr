@@ -138,7 +138,7 @@ AddEventHandler('esx_society:washMoney', function(society, amount)
           ['@amount']     = amount
         },
         function(rowsChanged)
-          TriggerClientEvent('esx:showNotification', xPlayer.source, _U('you_have') .. amount .. '~s~ en attente de ~r~blanchiement~s~ (24h)')
+          TriggerClientEvent('esx:showNotification', xPlayer.source, _U('you_have') .. amount .. '~s~ em dinheiro sujo ~r~sendo lavado~s~ (Prazo: 24h)')
         end
       )
 

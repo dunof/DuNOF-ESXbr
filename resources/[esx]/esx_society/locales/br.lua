@@ -1,4 +1,4 @@
-Locales['fr'] = {
+Locales['br'] = {
   ['actions']                = 'ações',
   ['deposit_amount']         = 'valor do depósito',
   ['deposit_society_money']  = 'depositar dinheiro da sociedade',
