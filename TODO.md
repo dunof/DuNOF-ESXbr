@@ -3,14 +3,13 @@
 
 # esx_shop
 - Adicionar itens
-- Colocar Blips diferentes para bares
 
 # esx_vigneronjob
 - não está totalmente traduzido
 
 # esx_advancedinventory
 - Configurar peso dos itens
-
+|
 # esx_vehicle_inventory
 - Configurar peso dos itens
 
@@ -18,10 +17,10 @@
 - Testar!
 
 # esx_dmvschool
-- Testar
+- Testar!
 
-# esx_hospital
-- Alguns médicos estão aparecendo fora da marca
+# esx_drugs
+- Efeito de usar Maconha
 
 # esx_aiomenu
 - Adicionar menu para outras profissões e funções
@@ -36,3 +35,4 @@
 - esx_dmvschool
 - esx_vehicle_inventory
 - esx_aiomenu
+- esx_blanchisseur

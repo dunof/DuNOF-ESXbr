@@ -25,16 +25,16 @@ Config.Zones = {
 }
 
 Config.Map = {
-  {name="Fazenda de Coca", 		color=10, scale=0.8, id=403, x=2145.9228515625,  y=4778.8076171875,  z=40.253701019287},
-  {name="Refino de Coca",  		color=10, scale=0.8, id=403, x=-458.13967895508, y=-2278.6174316406, z=7.5158290863037},
-  {name="Venda de Cocaína",		color=10, scale=0.8, id=403, x=-1756.1984863281, y=427.31674194336,  z=126.68292999268},
-  {name="Laboratório de Meta",	color=17, scale=0.8, id=403, x=1390.298828125,   y=3605.0217285156,  z=38.00956726074},
-  {name="Refino de Meta",  		color=17, scale=0.8, id=403, x=-1147.4151611328, y=4940.0087890625,  z=221.00686645508},
-  {name="Venda de Meta",   		color=17, scale=0.8, id=403, x=-63.592178344727, y=-1224.0709228516, z=27.768648147583},
+  {name="Fazenda de Coca", 		color=45, scale=0.8, id=514, x=2145.9228515625,  y=4778.8076171875,  z=40.253701019287},
+  {name="Refino de Coca",  		color=45, scale=0.8, id=514, x=-458.13967895508, y=-2278.6174316406, z=7.5158290863037},
+  {name="Venda de Cocaína",		color=45, scale=0.8, id=514, x=-1756.1984863281, y=427.31674194336,  z=126.68292999268},
+  {name="Laboratório de Meta",	color=17, scale=0.8, id=499, x=1390.298828125,   y=3605.0217285156,  z=38.00956726074},
+  {name="Refino de Meta",  		color=17, scale=0.8, id=499, x=-1147.4151611328, y=4940.0087890625,  z=221.00686645508},
+  {name="Venda de Meta",   		color=17, scale=0.8, id=499, x=-63.592178344727, y=-1224.0709228516, z=27.768648147583},
   {name="Fazenda de Ópio", 		color=6,  scale=0.8, id=403, x=1972.784790039,   y=3819.3999023438,  z=33.428722381592},
   {name="Refino de Ópio", 		color=6,  scale=0.8, id=403, x=971.86499023438,  y=-2157.61328125,   z=28.475107192994},
   {name="Venda de Ópio",   		color=6,  scale=0.8, id=403, x=2331.0881347656,  y=2570.2250976562,  z=46.681819915772},
-  {name="Fazenda de Maconha",	color=2,  scale=0.8, id=496, x=2217.125,         y=5577.5942382813,  z=52.961572647095},
-  {name="Refino de Maconha",	color=2,  scale=0.8, id=496, x=29.061386108398,  y=3666.0380859375,  z=39.77326965332},
-  {name="Venda de Maconha",   	color=2,  scale=0.8, id=496, x=-54.249694824219, y=-1443.3666992188, z=31.068626403809}
+  {name="Fazenda de Maconha",	color=24, scale=0.8, id=469, x=2217.125,         y=5577.5942382813,  z=52.961572647095},
+  {name="Refino de Maconha",	color=24, scale=0.8, id=469, x=29.061386108398,  y=3666.0380859375,  z=39.77326965332},
+  {name="Venda de Maconha",   	color=24, scale=0.8, id=469, x=-54.249694824219, y=-1443.3666992188, z=31.068626403809}
 }

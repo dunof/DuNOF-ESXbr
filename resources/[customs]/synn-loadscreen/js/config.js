@@ -9,14 +9,14 @@ var config =
     /* 
         Relative path the the logo we want to display.
     */
-    image: "img/logo01.png",
+    image: "img/logo.png",
 
     /*
         How big should the logo be?
         The values are: [width, height].
         Recommended to use square images less than 1024px.
     */
-    imageSize: [500, 126],
+    imageSize: [512, 512],
 
     /*
         Define the progressbar type
