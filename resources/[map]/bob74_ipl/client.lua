@@ -1,7 +1,7 @@
 Citizen.CreateThread(function()
 
 	-- Simeon: -47.16170 -1115.3327 26.5
-		RequestIpl("shr_int")
+	--	RequestIpl("shr_int")
 
 	-- Trevor: 1985.48132, 3828.76757, 32.5
 	-- Trash or Tidy. Only choose one.
