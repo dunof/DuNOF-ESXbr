@@ -5,7 +5,7 @@ Config = {
 		Sprite	= 50,
 		Scale	= 0.8,
 		Color	= 39 
-	}
+	},
 }
 
 Config.Garages = {
