@@ -33,7 +33,7 @@ ESX.RegisterServerCallback('eden_garage:stockv',function(source,cb, vehicleProps
 	local xPlayer = ESX.GetPlayerFromId(_source)
 	local vehicules = getPlayerVehicles(xPlayer.getIdentifier())
 	local plate = vehicleProps.plate
-
+	print(plate)
 	
 		for _,v in pairs(vehicules) do
 			if(plate == v.plate)then
@@ -112,7 +112,7 @@ AddEventHandler('eden_garage:pay', function()
 
 	xPlayer.removeMoney(Config.Price)
 
-	TriggerClientEvent('esx:showNotification', source, 'You paid ' .. Config.Price)
+	TriggerClientEvent('esx:showNotification', source, 'Você pagou ' .. Config.Price)
 
 end)
 --Fin fonction qui retire argent
@@ -192,7 +192,7 @@ AddEventHandler('eden_garage:payhealth', function(price)
 
 	xPlayer.removeMoney(price)
 
-	TriggerClientEvent('esx:showNotification', source, 'You paid ' .. price)
+	TriggerClientEvent('esx:showNotification', source, 'Você pagou o concerto do veículo no valor de R$' .. price)
 
 end)
 --fin de payement pour la santé vehicule
