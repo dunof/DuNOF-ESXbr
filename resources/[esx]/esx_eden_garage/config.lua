@@ -44,7 +44,28 @@ Config.Garages = {
 			Marker = 1		
 		},
 		DeletePoint = {
-			Pos = {x=306.62, y=-1080.96, z=28,186},
+			Pos = {x=306.62, y=-1080.96, z=28.186},
+			Color = {r=255,g=0,b=0},
+			Size  = {x = 2.0, y = 2.0, z = 1.0},
+			Marker = 1,
+			
+		},
+	},
+	Garage_P2 = {
+		Name	= "Garagem",	
+		Pos 	= {x=-869.48, y=-376.84, z=37.516},
+		Size  	= {x = 1.5, y = 1.5, z = 1.0},
+		Color 	= {r = 204, g = 204, b = 0},
+		Marker 	= 1,
+		SpawnPoint = {
+			Pos = {x=-895.59, y=-345.44, z=32.746}, 
+			Color = {r=0,g=255,b=0},
+			Size  = {x = 1.5, y = 1.5, z = 1.0},
+			Heading=356.12,
+			Marker = 1		
+		},
+		DeletePoint = {
+			Pos = {x=-889.03, y=-336.85, z=32.746},
 			Color = {r=255,g=0,b=0},
 			Size  = {x = 2.0, y = 2.0, z = 1.0},
 			Marker = 1,
