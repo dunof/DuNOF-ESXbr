@@ -37,14 +37,35 @@ Config.Garages = {
 		Color 	= {r = 204, g = 204, b = 0},
 		Marker 	= 1,
 		SpawnPoint = {
-			Pos = {x=306.63635253906, y=-1080.9251708984, z=29.386014938354},
+			Pos = {x=307.06704711914, y=-1074.4246826172, z=29.5722}, 
 			Color = {r=0,g=255,b=0},
 			Size  = {x = 1.5, y = 1.5, z = 1.0},
 			Heading=157.84,
 			Marker = 1		
 		},
 		DeletePoint = {
-			Pos = {x=306.6039428711, y=-1085.2708740234, z=29.386783599854},
+			Pos = {x=306.6039428711, y=-1085.2708740234, z=29.646},
+			Color = {r=255,g=0,b=0},
+			Size  = {x = 3.0, y = 3.0, z = 1.0},
+			Marker = 1,
+			
+		},
+	},
+	Garage_vehshop = {
+		Name	= "Estacionamento Público",	
+		Pos 	= {x=-46.158870697022, y=-1110.0493164062, z=25.974},
+		Size  	= {x = 1.5, y = 1.5, z = 1.0},
+		Color 	= {r = 204, g = 204, b = 0},
+		Marker 	= 1,
+		SpawnPoint = {
+			Pos = {x=-53.828338623046, y=-1107.4854736328, z=25.973},
+			Color = {r=0,g=255,b=0},
+			Size  = {x = 1.5, y = 1.5, z = 1.0},
+			Heading=157.84,
+			Marker = 1		
+		},
+		DeletePoint = {
+			Pos = {x=-56.257362365722, y=-1116.5684814454, z=25.971},
 			Color = {r=255,g=0,b=0},
 			Size  = {x = 3.0, y = 3.0, z = 1.0},
 			Marker = 1,
