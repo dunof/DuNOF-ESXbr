@@ -207,7 +207,7 @@ end
 function ranger(vehicle,vehicleProps)
 	ESX.Game.DeleteVehicle(vehicle)
 	TriggerServerEvent('eden_garage:modifystate', vehicleProps, true)
-	TriggerEvent('esx:showNotification', 'seu veículo foi guardado na garagem')
+	TriggerEvent('esx:showNotification', 'Seu veículo foi guardado na garagem')
 end
 
 -- Fonction qui permet de rentrer un vehicule
@@ -257,6 +257,10 @@ function SpawnVehicle(vehicle)
 		ESX.Game.SetVehicleProperties(callback_vehicle, vehicle)
 		SetVehRadioStation(callback_vehicle, "OFF")
 		TaskWarpPedIntoVehicle(GetPlayerPed(-1), callback_vehicle, -1)
+		-- dunof fix
+		SetVehicleDoorsLocked(callback_vehicle, 2)
+      	SetVehicleDoorsLockedForPlayer(callback_vehicle, PlayerId(), false)
+      	-- dunof fix
 		local plate = GetVehicleNumberPlateText(callback_vehicle)
 		TriggerServerEvent("ls:mainCheck", plate, callback_vehicle, true)
 		end)
@@ -292,21 +296,21 @@ AddEventHandler('eden_garage:hasEnteredMarker', function(zone)
 
 	if zone == 'spawn' then
 		CurrentAction     = 'spawn'
-		CurrentActionMsg  = "pressione ~INPUT_PICKUP~ para retirar um veículo"
+		CurrentActionMsg  = "Pressione ~INPUT_PICKUP~ para retirar um veículo"
 		CurrentActionData = {}
 	end
 
 	if zone == 'delete' then
 		CurrentAction     = 'delete'
-		CurrentActionMsg  = "pressione ~INPUT_PICKUP~ para guardar um veículo"
+		CurrentActionMsg  = "Pressione ~INPUT_PICKUP~ para guardar um veículo"
 		CurrentActionData = {}
 	end
 	
-	if zone == 'pound' then
-		CurrentAction     = 'pound_action_menu'
-		CurrentActionMsg  = "pressione ~INPUT_PICKUP~ para acessar a seguradora"
-		CurrentActionData = {}
-	end
+--	if zone == 'pound' then
+--		CurrentAction     = 'pound_action_menu'
+--		CurrentActionMsg  = "Pressione ~INPUT_PICKUP~ para acessar a seguradora"
+--		CurrentActionData = {}
+--	end
 end)
 
 AddEventHandler('eden_garage:hasExitedMarker', function(zone)
