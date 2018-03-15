@@ -257,12 +257,15 @@ function SpawnVehicle(vehicle)
 		ESX.Game.SetVehicleProperties(callback_vehicle, vehicle)
 		SetVehRadioStation(callback_vehicle, "OFF")
 		TaskWarpPedIntoVehicle(GetPlayerPed(-1), callback_vehicle, -1)
-		-- dunof fix
-		SetVehicleDoorsLocked(callback_vehicle, 2)
-      	SetVehicleDoorsLockedForPlayer(callback_vehicle, PlayerId(), false)
-      	-- dunof fix
 		local plate = GetVehicleNumberPlateText(callback_vehicle)
 		TriggerServerEvent("ls:mainCheck", plate, callback_vehicle, true)
+		-- dunof fix
+		lastCar = GetVehiclePedIsIn(GetPlayerPed(-1), false)
+		SetVehicleDoorsLocked(lastCar, 2)
+      	SetVehicleDoorsLockedForPlayer(callback_vehicle, PlayerId(), false)
+      	SetVehicleDoorsLocked(lastCar, 1)
+      	SetVehicleDoorsLockedForAllPlayers(vehicle, false)
+      	-- dunof fix
 		end)
 		
 
