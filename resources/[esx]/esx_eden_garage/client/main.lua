@@ -52,7 +52,7 @@ function refreshBlips()
 		local blip = AddBlipForCoord(zoneValues.Pos.x, zoneValues.Pos.y, zoneValues.Pos.z)
 		SetBlipSprite (blip, Config.BlipInfos.Sprite)
 		SetBlipDisplay(blip, 4)
-		SetBlipScale  (blip, 0.8)
+		SetBlipScale  (blip, Config.BlipInfos.Scale)
 		SetBlipColour (blip, Config.BlipInfos.Color)
 		SetBlipAsShortRange(blip, true)
 		BeginTextCommandSetBlipName("STRING")
@@ -159,7 +159,7 @@ function ListVehiclesMenu()
 				menu.close()
 				SpawnVehicle(data.current.value.vehicle)
 			else
-				TriggerEvent('esx:showNotification', 'este veículo já está na rua!')
+				TriggerEvent('esx:showNotification', 'Este veículo já está na rua!')
 			end
 		end,
 		function(data, menu)
