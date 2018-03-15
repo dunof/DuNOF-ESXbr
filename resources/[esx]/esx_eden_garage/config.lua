@@ -37,14 +37,14 @@ Config.Garages = {
 		Color 	= {r = 204, g = 204, b = 0},
 		Marker 	= 1,
 		SpawnPoint = {
-			Pos = {x=307.01, y=-1074.3, z=29.37}, 
+			Pos = {x=307.01, y=-1074.3, z=28.166}, 
 			Color = {r=0,g=255,b=0},
 			Size  = {x = 1.5, y = 1.5, z = 1.0},
 			Heading=356.12,
 			Marker = 1		
 		},
 		DeletePoint = {
-			Pos = {x=306.62, y=-1080.96, z=29.39},
+			Pos = {x=306.62, y=-1080.96, z=28,186},
 			Color = {r=255,g=0,b=0},
 			Size  = {x = 2.0, y = 2.0, z = 1.0},
 			Marker = 1,
@@ -58,14 +58,14 @@ Config.Garages = {
 		Color 	= {r = 204, g = 204, b = 0},
 		Marker 	= 1,
 		SpawnPoint = {
-			Pos = {x=-54.42, y=-1108.97, z=26.44},
+			Pos = {x=-54.42, y=-1108.97, z=25.2},
 			Color = {r=0,g=255,b=0},
 			Size  = {x = 1.5, y = 1.5, z = 1.0},
 			Heading=77.52,
 			Marker = 1		
 		},
 		DeletePoint = {
-			Pos = {x=-56.35, y=-1116.85, z=26.43},
+			Pos = {x=-56.35, y=-1116.85, z=25.226},
 			Color = {r=255,g=0,b=0},
 			Size  = {x = 2.0, y = 2.0, z = 1.0},
 			Marker = 1,
