@@ -72,6 +72,27 @@ Config.Garages = {
 			
 		},
 	},
+	Garage_DelPerroHeights = {
+		Name	= "Garagem",	
+		Pos 	= {x=-1453.31, y=-507.57, z=31.16},
+		Size  	= {x = 1.5, y = 1.5, z = 1.0},
+		Color 	= {r = 204, g = 204, b = 0},
+		Marker 	= 1,
+		SpawnPoint = {
+			Pos = {x=-1451.72, y=-507.52, z=31.16}, 
+			Color = {r=0,g=255,b=0},
+			Size  = {x = 1.5, y = 1.5, z = 1.0},
+			Heading=35.36,
+			Marker = 1		
+		},
+		DeletePoint = {
+			Pos = {x=-1454.41, y=-507.85, z=31.16},
+			Color = {r=255,g=0,b=0},
+			Size  = {x = 2.0, y = 2.0, z = 1.0},
+			Marker = 1,
+			
+		},
+	},
 	Garage_vehshop = {
 		Name	= "Estacionamento Público",	
 		Pos 	= {x=-46.158870697022, y=-1110.0493164062, z=25.974},
