@@ -9,6 +9,46 @@ Config = {
 }
 
 Config.Garages = {
+	Garage_Police = {
+		Name	= "Garagem Policiais",	
+		Pos 	= {x=433.8, y=-1001.65, z=25.8},
+		Size  	= {x = 3.0, y = 3.0, z = 1.0},
+		Color 	= {r = 204, g = 204, b = 0},
+		Marker 	= 1,
+		SpawnPoint = {
+			Pos = {x=431.2, y= -997.02, z= 24.556},
+			Color = {r=0,g=255,b=0},
+			Size  = {x = 3.0, y = 3.0, z = 1.0},
+			Heading=183.09,
+			Marker = 1		
+		},
+		DeletePoint = {
+			Pos = {x=436.39, y=-996.84, z=24.566},
+			Color = {r=255,g=0,b=0},
+			Size  = {x = 3.0, y = 3.0, z = 1.0},
+			Marker = 1	
+		}
+	},
+	Garage_Ambulance = {
+		Name	= "Garagem SAMU",	
+		Pos 	= {x=326.65, y=-1479.1, z=29.82},
+		Size  	= {x = 3.0, y = 3.0, z = 1.0},
+		Color 	= {r = 204, g = 204, b = 0},
+		Marker 	= 1,
+		SpawnPoint = {
+			Pos = {x=332.44, y= -1479.83, z= 28.536},
+			Color = {r=0,g=255,b=0},
+			Size  = {x = 3.0, y = 3.0, z = 1.0},
+			Heading=301.24,
+			Marker = 1		
+		},
+		DeletePoint = {
+			Pos = {x=321.59, y=-1478.97, z=28.606},
+			Color = {r=255,g=0,b=0},
+			Size  = {x = 3.0, y = 3.0, z = 1.0},
+			Marker = 1	
+		}
+	},
 	Garage_Centre = {
 		Name	= "Estacionamento Público",	
 		Pos 	= {x=215.800, y=-810.057, z=29.727},
@@ -346,6 +386,26 @@ Config.Garages = {
 			Pos = {x=394.67, y=429.9, z=142.346},
 			Color = {r=255,g=0,b=0},
 			Size  = {x = 1.5, y = 1.5, z = 1.0},
+			Marker = 1
+		}
+	},
+	Garage_Taxi = {
+		Name	= "Garagem Comercial",	
+		Pos 	= {x=898.05, y=-181.99, z=73.78},
+		Size  	= {x = 1.5, y = 1.5, z = 1.0},
+		Color 	= {r = 204, g = 204, b = 0},
+		Marker 	= 1,
+		SpawnPoint = {
+			Pos = {x=899.16, y=-180.47, z=72.626}, 
+			Color = {r=0,g=255,b=0},
+			Size  = {x = 1.5, y = 1.5, z = 1.0},
+			Heading=236.79,
+			Marker = 1		
+		},
+		DeletePoint = {
+			Pos = {x=897.71, y=-183.45, z=72.576},
+			Color = {r=255,g=0,b=0},
+			Size  = {x = 2.0, y = 2.0, z = 1.0},
 			Marker = 1
 		}
 	},
