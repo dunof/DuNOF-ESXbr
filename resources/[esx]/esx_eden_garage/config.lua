@@ -216,14 +216,14 @@ Config.Garages = {
 		Color 	= {r = 204, g = 204, b = 0},
 		Marker 	= 1,
 		SpawnPoint = {
-			Pos = {x=-685.22, y=602.72, z=143.5}, 
+			Pos = {x=-685.22, y=602.72, z=142.296}, 
 			Color = {r=0,g=255,b=0},
 			Size  = {x = 1.5, y = 1.5, z = 1.0},
 			Heading=63.51,
 			Marker = 1		
 		},
 		DeletePoint = {
-			Pos = {x=-683.19, y=605.07, z=143.79},
+			Pos = {x=-683.19, y=605.07, z=142.586},
 			Color = {r=255,g=0,b=0},
 			Size  = {x = 1.5, y = 1.5, z = 1.0},
 			Marker = 1
@@ -269,8 +269,88 @@ Config.Garages = {
 			Marker = 1
 		}
 	},
+	Garage_WildOats3655 = {
+		Name	= "Garagem Residencial",	
+		Pos 	= {x=-188.58, y=499.7, z=134.74},
+		Size  	= {x = 1.5, y = 1.5, z = 1.0},
+		Color 	= {r = 204, g = 204, b = 0},
+		Marker 	= 1,
+		SpawnPoint = {
+			Pos = {x=-187.36, y=502.68, z=133.406}, 
+			Color = {r=0,g=255,b=0},
+			Size  = {x = 1.5, y = 1.5, z = 1.0},
+			Heading=17.1,
+			Marker = 1		
+		},
+		DeletePoint = {
+			Pos = {x=-190.54, y=501.79, z=133.026},
+			Color = {r=255,g=0,b=0},
+			Size  = {x = 1.5, y = 1.5, z = 1.0},
+			Marker = 1
+		}
+	},
+	Garage_WhispyMound2677 = {
+		Name	= "Garagem Residencial",	
+		Pos 	= {x=131.84, y=565.24, z=183.93},
+		Size  	= {x = 1.5, y = 1.5, z = 1.0},
+		Color 	= {r = 204, g = 204, b = 0},
+		Marker 	= 1,
+		SpawnPoint = {
+			Pos = {x=130.69, y=568.13, z=182.166}, 
+			Color = {r=0,g=255,b=0},
+			Size  = {x = 1.5, y = 1.5, z = 1.0},
+			Heading=6.9,
+			Marker = 1		
+		},
+		DeletePoint = {
+			Pos = {x=133.17, y=568.25, z=182.246},
+			Color = {r=255,g=0,b=0},
+			Size  = {x = 1.5, y = 1.5, z = 1.0},
+			Marker = 1
+		}
+	},
+	Garage_NorthConker2044 = {
+		Name	= "Garagem Residencial",	
+		Pos 	= {x=350.44, y=435.97, z=147.7},
+		Size  	= {x = 1.5, y = 1.5, z = 1.0},
+		Color 	= {r = 204, g = 204, b = 0},
+		Marker 	= 1,
+		SpawnPoint = {
+			Pos = {x=352.43, y=439.12, z=145.606}, 
+			Color = {r=0,g=255,b=0},
+			Size  = {x = 1.5, y = 1.5, z = 1.0},
+			Heading=294.86,
+			Marker = 1		
+		},
+		DeletePoint = {
+			Pos = {x=354.47, y=435.54, z=145.556},
+			Color = {r=255,g=0,b=0},
+			Size  = {x = 1.5, y = 1.5, z = 1.0},
+			Marker = 1
+		}
+	},
+	Garage_NorthConker2045 = {
+		Name	= "Garagem Residencial",	
+		Pos 	= {x=391.3, y=427.66, z=144.2},
+		Size  	= {x = 1.5, y = 1.5, z = 1.0},
+		Color 	= {r = 204, g = 204, b = 0},
+		Marker 	= 1,
+		SpawnPoint = {
+			Pos = {x=389.24, y=430.63, z=142.476}, 
+			Color = {r=0,g=255,b=0},
+			Size  = {x = 1.5, y = 1.5, z = 1.0},
+			Heading=349.21,
+			Marker = 1		
+		},
+		DeletePoint = {
+			Pos = {x=394.67, y=429.9, z=142.346},
+			Color = {r=255,g=0,b=0},
+			Size  = {x = 1.5, y = 1.5, z = 1.0},
+			Marker = 1
+		}
+	},
 	Garage_RealState = {
-		Name	= "Garagem",	
+		Name	= "Garagem Comercial",	
 		Pos 	= {x=-148.35, y=-592.37, z=32.42},
 		Size  	= {x = 1.5, y = 1.5, z = 1.0},
 		Color 	= {r = 204, g = 204, b = 0},
