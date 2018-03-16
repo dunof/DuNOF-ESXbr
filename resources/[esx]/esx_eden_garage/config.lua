@@ -89,6 +89,46 @@ Config.Garages = {
 			Marker = 1
 		}
 	},
+	Garage_TinselTowers = {
+		Name	= "Garagem",	
+		Pos 	= {x=-630.25, y=56.4, z=42.516},
+		Size  	= {x = 1.5, y = 1.5, z = 1.0},
+		Color 	= {r = 204, g = 204, b = 0},
+		Marker 	= 1,
+		SpawnPoint = {
+			Pos = {x=-627.07, y=58.21, z=42.526}, 
+			Color = {r=0,g=255,b=0},
+			Size  = {x = 1.5, y = 1.5, z = 1.0},
+			Heading=35.36,
+			Marker = 1		
+		},
+		DeletePoint = {
+			Pos = {x=-620.28, y=53.59, z=42.526},
+			Color = {r=255,g=0,b=0},
+			Size  = {x = 2.0, y = 2.0, z = 1.0},
+			Marker = 1
+		}
+	},
+	Garage_MiltonDrive = {
+		Name	= "Garagem",	
+		Pos 	= {x=-796.13, y=315.87, z=84.456},
+		Size  	= {x = 1.5, y = 1.5, z = 1.0},
+		Color 	= {r = 204, g = 204, b = 0},
+		Marker 	= 1,
+		SpawnPoint = {
+			Pos = {x=-797.98, y=320.92, z=84.486}, 
+			Color = {r=0,g=255,b=0},
+			Size  = {x = 1.5, y = 1.5, z = 1.0},
+			Heading=35.36,
+			Marker = 1		
+		},
+		DeletePoint = {
+			Pos = {x=-794.02, y=320.09, z=84,486},
+			Color = {r=255,g=0,b=0},
+			Size  = {x = 2.0, y = 2.0, z = 1.0},
+			Marker = 1
+		}
+	},
 	Garage_vehshop = {
 		Name	= "Estacionamento Público",	
 		Pos 	= {x=-46.158870697022, y=-1110.0493164062, z=25.974},
