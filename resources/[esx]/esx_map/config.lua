@@ -25,7 +25,7 @@ Config.Map = {
   {name="Shops",color=2, id=52,x =-707.501, y =-914.260, z =18.215},
   {name="Shops",color=2, id=52,x =-1820.523, y =792.518, z =137.118},
   {name="Shops",color=2, id=52,x =1698.388, y =4924.404, z =41.063},
-  {name="Lavagem de Dinheiro",color=52, id=500,x =-1114.38, y =-501.46, z =35.81}
+  {name="Lavagem de Dinheiro",color=69, id=500,x =-1114.38, y =-501.46, z =35.81}
 --  {name="Coke",color=4, id=514,x=1731.85, y=-2571.31, z=59.893701019287},
 --  {name="Coke",color=4, id=514,x=-458.13967895508, y=-2278.6174316406, z=7.5158290863037},
 --  {name="Coke",color=4, id=514,x=-1375.85, y=-335.31674194336, z=38.018292999268},

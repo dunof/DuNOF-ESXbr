@@ -29,6 +29,46 @@ Config.Garages = {
 			Marker = 1	
 		}
 	},
+	Garage_Centre2 = {
+		Name	= "Estacionamento Público",	
+		Pos 	= {x=149.09, y=-1076.77, z=29.19},
+		Size  	= {x = 3.0, y = 3.0, z = 1.0},
+		Color 	= {r = 204, g = 204, b = 0},
+		Marker 	= 1,
+		SpawnPoint = {
+			Pos = {x=147.22, y= -1081.7, z= 27.986},
+			Color = {r=0,g=255,b=0},
+			Size  = {x = 3.0, y = 3.0, z = 1.0},
+			Heading=157.84,
+			Marker = 1		
+		},
+		DeletePoint = {
+			Pos = {x=150.93, y=-1081.51, z=28.006},
+			Color = {r=255,g=0,b=0},
+			Size  = {x = 3.0, y = 3.0, z = 1.0},
+			Marker = 1	
+		}
+	},
+	Garage_DMV = {
+		Name	= "Estacionamento Público",	
+		Pos 	= {x=224.79, y=-1386.15, z=30.51},
+		Size  	= {x = 3.0, y = 3.0, z = 1.0},
+		Color 	= {r = 204, g = 204, b = 0},
+		Marker 	= 1,
+		SpawnPoint = {
+			Pos = {x=224.76, y= -1381.45, z= 29.296},
+			Color = {r=0,g=255,b=0},
+			Size  = {x = 3.0, y = 3.0, z = 1.0},
+			Heading=190.72,
+			Marker = 1		
+		},
+		DeletePoint = {
+			Pos = {x=223.25, y=-1387.89, z=29.336},
+			Color = {r=255,g=0,b=0},
+			Size  = {x = 3.0, y = 3.0, z = 1.0},
+			Marker = 1	
+		}
+	},
 	Garage_PopularAP = {
 		Name	= "Estacionamento Público",	
 		Pos 	= {x=312.08581542968, y=-1080.509765625, z=29.402994155884},
