@@ -27,7 +27,7 @@ Citizen.CreateThread(function()
 		end
 		if displayDate == true then
 			CalculateDateToDisplay()
-			timeAndDateString = timeAndDateString .. " " .. month .. " " .. dayOfMonth .. ", " .. year .. " |"
+			timeAndDateString = timeAndDateString .. " " .. dayOfMonth .. " de " .. month .. " |"
 		end
 		
 		SetTextFont(0)
