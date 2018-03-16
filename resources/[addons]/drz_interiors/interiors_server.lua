@@ -7,6 +7,7 @@ local interiors = {
 	[4] = { ["xe"] = -1388.56, ["ye"] = -586.6, ["ze"] = 30.22, ["he"] = 212.46, ["xo"] = -1387.76, ["yo"] = -588.25, ["zo"] = 30.32, ["ho"] = 221.06, ["name"] = 'Bahamas Club'},
 	[5] = { ["xe"] = -39.23, ["ye"] = -614.15, ["ze"] = 35.27, ["he"] = 76.27, ["xo"] = -46.33, ["yo"] = -581.89, ["zo"] = 37.95, ["ho"] = 162.61, ["name"] = 'Garagem IntegrityWay'},
 	[6] = { ["xe"] = -144.46, ["ye"] = -578.2, ["ze"] = 32.42, ["he"] = 157.59, ["xo"] = -142.44, ["yo"] = -624.87, ["zo"] = 168.82, ["ho"] = 281.86, ["name"] = 'Garagem Agente Imobiliário'}
+	[7] = { ["xe"] = -1111.31, ["ye"] = -4937.08, ["ze"] = 218.39, ["he"] = 164.14, ["xo"] = 997.12, ["yo"] = -3200.73, ["zo"] = -36.39, ["ho"] = 262.19, ["name"] = 'Laboratório Metanfetamina'}
 }
 
 RegisterServerEvent("interiors:sendData_s")

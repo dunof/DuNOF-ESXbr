@@ -209,6 +209,66 @@ Config.Garages = {
 			Marker = 1
 		}
 	},
+	Garage_HillCrest2862 = {
+		Name	= "Garagem Residencial",	
+		Pos 	= {x=-682.52, y=-601.26, z=143.69},
+		Size  	= {x = 1.5, y = 1.5, z = 1.0},
+		Color 	= {r = 204, g = 204, b = 0},
+		Marker 	= 1,
+		SpawnPoint = {
+			Pos = {x=-684.99, y=602.36, z=142.276}, 
+			Color = {r=0,g=255,b=0},
+			Size  = {x = 1.5, y = 1.5, z = 1.0},
+			Heading=46.39,
+			Marker = 1		
+		},
+		DeletePoint = {
+			Pos = {x=-682.3, y=604.23, z=142.496},
+			Color = {r=255,g=0,b=0},
+			Size  = {x = 1.5, y = 1.5, z = 1.0},
+			Marker = 1
+		}
+	},
+	Garage_HillCrest2868 = {
+		Name	= "Garagem Residencial",	
+		Pos 	= {x=-754.73, y=627.57, z=142.7},
+		Size  	= {x = 1.5, y = 1.5, z = 1.0},
+		Color 	= {r = 204, g = 204, b = 0},
+		Marker 	= 1,
+		SpawnPoint = {
+			Pos = {x=-753.65, y=625.35, z=141.426}, 
+			Color = {r=0,g=255,b=0},
+			Size  = {x = 1.5, y = 1.5, z = 1.0},
+			Heading=286.98,
+			Marker = 1		
+		},
+		DeletePoint = {
+			Pos = {x=-754.63, y=629.37, z=141.446},
+			Color = {r=255,g=0,b=0},
+			Size  = {x = 1.5, y = 1.5, z = 1.0},
+			Marker = 1
+		}
+	},
+	Garage_HillCrest2868 = {
+		Name	= "Garagem Residencial",	
+		Pos 	= {x=-862.55, y=701.28, z=149.03},
+		Size  	= {x = 1.5, y = 1.5, z = 1.0},
+		Color 	= {r = 204, g = 204, b = 0},
+		Marker 	= 1,
+		SpawnPoint = {
+			Pos = {x=-861.58, y=698.1, z=148.99}, 
+			Color = {r=0,g=255,b=0},
+			Size  = {x = 1.5, y = 1.5, z = 1.0},
+			Heading=12.72,
+			Marker = 1		
+		},
+		DeletePoint = {
+			Pos = {x=-864.42, y=699.53, z=149.07},
+			Color = {r=255,g=0,b=0},
+			Size  = {x = 1.5, y = 1.5, z = 1.0},
+			Marker = 1
+		}
+	},
 	Garage_RealState = {
 		Name	= "Garagem",	
 		Pos 	= {x=-148.35, y=-592.37, z=32.42},
