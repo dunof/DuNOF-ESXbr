@@ -211,19 +211,19 @@ Config.Garages = {
 	},
 	Garage_HillCrest2862 = {
 		Name	= "Garagem Residencial",	
-		Pos 	= {x=-682.52, y=-601.26, z=143.69},
+		Pos 	= {x=-682.49, y=601.32, z=143.69},
 		Size  	= {x = 1.5, y = 1.5, z = 1.0},
 		Color 	= {r = 204, g = 204, b = 0},
 		Marker 	= 1,
 		SpawnPoint = {
-			Pos = {x=-684.99, y=602.36, z=142.276}, 
+			Pos = {x=-685.22, y=602.72, z=143.5}, 
 			Color = {r=0,g=255,b=0},
 			Size  = {x = 1.5, y = 1.5, z = 1.0},
-			Heading=46.39,
+			Heading=63.51,
 			Marker = 1		
 		},
 		DeletePoint = {
-			Pos = {x=-682.3, y=604.23, z=142.496},
+			Pos = {x=-683.19, y=605.07, z=143.79},
 			Color = {r=255,g=0,b=0},
 			Size  = {x = 1.5, y = 1.5, z = 1.0},
 			Marker = 1
