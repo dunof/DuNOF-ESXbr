@@ -83,7 +83,7 @@ Config.Garages = {
 			Marker = 1		
 		},
 		DeletePoint = {
-			Pos = {x=-1454.41, y=-507.85, z=30.376},
+			Pos = {x=-1451.15, y=-513.81, z=30.376},
 			Color = {r=255,g=0,b=0},
 			Size  = {x = 2.0, y = 2.0, z = 1.0},
 			Marker = 1
@@ -144,6 +144,26 @@ Config.Garages = {
 		},
 		DeletePoint = {
 			Pos = {x=-1298.98, y=456.62, z=96.286},
+			Color = {r=255,g=0,b=0},
+			Size  = {x = 2.0, y = 2.0, z = 1.0},
+			Marker = 1
+		}
+	},
+	Garage_CinemaStudio = {
+		Name	= "Garagem",	
+		Pos 	= {x=-1039.83, y=-501.43, z=36.05},
+		Size  	= {x = 1.5, y = 1.5, z = 1.0},
+		Color 	= {r = 204, g = 204, b = 0},
+		Marker 	= 1,
+		SpawnPoint = {
+			Pos = {x=-1040.64, y=-499.5, z=34.866}, 
+			Color = {r=0,g=255,b=0},
+			Size  = {x = 1.5, y = 1.5, z = 1.0},
+			Heading=111.07,
+			Marker = 1		
+		},
+		DeletePoint = {
+			Pos = {x=-1037.63, y=-504.03, z=34.826},
 			Color = {r=255,g=0,b=0},
 			Size  = {x = 2.0, y = 2.0, z = 1.0},
 			Marker = 1
