@@ -29,7 +29,7 @@ Config.Garages = {
 			Marker = 1	
 		}
 	},
-	Garage_PPopular = {
+	Garage_PopularAP = {
 		Name	= "Estacionamento Público",	
 		Pos 	= {x=312.08581542968, y=-1080.509765625, z=29.402994155884},
 		Size  	= {x = 1.5, y = 1.5, z = 1.0},
@@ -99,7 +99,7 @@ Config.Garages = {
 			Pos = {x=-627.07, y=58.21, z=42.526}, 
 			Color = {r=0,g=255,b=0},
 			Size  = {x = 1.5, y = 1.5, z = 1.0},
-			Heading=35.36,
+			Heading=93.68,
 			Marker = 1		
 		},
 		DeletePoint = {
@@ -119,11 +119,31 @@ Config.Garages = {
 			Pos = {x=-797.98, y=320.92, z=84.486}, 
 			Color = {r=0,g=255,b=0},
 			Size  = {x = 1.5, y = 1.5, z = 1.0},
-			Heading=35.36,
+			Heading=175.82,
 			Marker = 1		
 		},
 		DeletePoint = {
-			Pos = {x=-794.02, y=320.09, z=84,486},
+			Pos = {x=-794.02, y=320.09, z=84.486},
+			Color = {r=255,g=0,b=0},
+			Size  = {x = 2.0, y = 2.0, z = 1.0},
+			Marker = 1
+		}
+	},
+	Garage_MadWayneThunder = {
+		Name	= "Garagem",	
+		Pos 	= {x=-1297.89, y=454.23, z=96.426},
+		Size  	= {x = 1.5, y = 1.5, z = 1.0},
+		Color 	= {r = 204, g = 204, b = 0},
+		Marker 	= 1,
+		SpawnPoint = {
+			Pos = {x=-1296.61, y=456.37, z=96.086}, 
+			Color = {r=0,g=255,b=0},
+			Size  = {x = 1.5, y = 1.5, z = 1.0},
+			Heading=2.42,
+			Marker = 1		
+		},
+		DeletePoint = {
+			Pos = {x=-1298.98, y=456.62, z=96.286},
 			Color = {r=255,g=0,b=0},
 			Size  = {x = 2.0, y = 2.0, z = 1.0},
 			Marker = 1
