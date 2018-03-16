@@ -199,7 +199,7 @@ Config.Garages = {
 			Pos = {x=-19.96, y=-634.99, z=34.516}, 
 			Color = {r=0,g=255,b=0},
 			Size  = {x = 1.5, y = 1.5, z = 1.0},
-			Heading=2.42,
+			Heading=248.88,
 			Marker = 1		
 		},
 		DeletePoint = {
@@ -219,7 +219,7 @@ Config.Garages = {
 			Pos = {x=-149.58, y=-590.91, z=31.216}, 
 			Color = {r=0,g=255,b=0},
 			Size  = {x = 1.5, y = 1.5, z = 1.0},
-			Heading=2.42,
+			Heading=160.55,
 			Marker = 1		
 		},
 		DeletePoint = {
