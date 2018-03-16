@@ -11,5 +11,5 @@ Config.Menu				= false
 Config.Bonus			= {min = 0, max = 05}
 
 Config.Zones = {
-	{x = -1117.0729980469, y = -503.17425537109, z = 34.806301116943,percent=30},
+	{x = 1120.06, y = -3197.26, z = -40.4,percent=30},
 }
