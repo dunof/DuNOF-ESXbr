@@ -1,5 +1,6 @@
 # esx_jobs
 - Balancear salários
+- TRADUCAO DE ENTREGA DO CAMINHAO DE FRANGO
 
 # esx_shop
 - Adicionar itens
