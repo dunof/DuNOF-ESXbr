@@ -189,6 +189,46 @@ Config.Garages = {
 			Marker = 1
 		}
 	},
+	Garage_IntegrityWay = {
+		Name	= "Garagem",	
+		Pos 	= {x=-33.88, y=-621.65, z=35.04},
+		Size  	= {x = 1.5, y = 1.5, z = 1.0},
+		Color 	= {r = 204, g = 204, b = 0},
+		Marker 	= 1,
+		SpawnPoint = {
+			Pos = {x=-19.96, y=-634.99, z=34.516}, 
+			Color = {r=0,g=255,b=0},
+			Size  = {x = 1.5, y = 1.5, z = 1.0},
+			Heading=2.42,
+			Marker = 1		
+		},
+		DeletePoint = {
+			Pos = {x=-36.97, y=-620.45, z=33.866},
+			Color = {r=255,g=0,b=0},
+			Size  = {x = 2.0, y = 2.0, z = 1.0},
+			Marker = 1
+		}
+	},
+	Garage_RealState = {
+		Name	= "Garagem",	
+		Pos 	= {x=-148.35, y=-592.37, z=32.42},
+		Size  	= {x = 1.5, y = 1.5, z = 1.0},
+		Color 	= {r = 204, g = 204, b = 0},
+		Marker 	= 1,
+		SpawnPoint = {
+			Pos = {x=-149.58, y=-590.91, z=31.216}, 
+			Color = {r=0,g=255,b=0},
+			Size  = {x = 1.5, y = 1.5, z = 1.0},
+			Heading=2.42,
+			Marker = 1		
+		},
+		DeletePoint = {
+			Pos = {x=-146.25, y=-592.68, z=31.216},
+			Color = {r=255,g=0,b=0},
+			Size  = {x = 2.0, y = 2.0, z = 1.0},
+			Marker = 1
+		}
+	},
 	Garage_CinemaStudio = {
 		Name	= "Garagem",	
 		Pos 	= {x=-1039.83, y=-501.43, z=36.05},

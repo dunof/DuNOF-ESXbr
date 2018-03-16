@@ -5,7 +5,7 @@ Config.Locale       = 'br'
 
 Config.Zones = {
   OfficeEnter = {
-    Pos   = { x = -199.151, y = -575.000, z = 39.489 },
+    Pos   = { x = -118.22, y = -607.06, z = 36.28 },
     Size  = { x = 1.5, y = 1.5, z = 1.0 },
     Type  = 1,
   },
