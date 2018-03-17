@@ -89,6 +89,26 @@ Config.Garages = {
 			Marker = 1	
 		}
 	},
+	Garage_JobsAgency = {
+		Name	= "Estacionamento Público",	
+		Pos 	= {x=-298.46, y=-987.01, z=31.08},
+		Size  	= {x = 3.0, y = 3.0, z = 1.0},
+		Color 	= {r = 204, g = 204, b = 0},
+		Marker 	= 1,
+		SpawnPoint = {
+			Pos = {x=-297.95, y= -990.65, z= 29.876},
+			Color = {r=0,g=255,b=0},
+			Size  = {x = 3.0, y = 3.0, z = 1.0},
+			Heading=336.98,
+			Marker = 1		
+		},
+		DeletePoint = {
+			Pos = {x=-301.35, y=-989.39, z=29.876},
+			Color = {r=255,g=0,b=0},
+			Size  = {x = 3.0, y = 3.0, z = 1.0},
+			Marker = 1	
+		}
+	},
 	Garage_DMV = {
 		Name	= "Estacionamento Público",	
 		Pos 	= {x=224.79, y=-1386.15, z=30.51},

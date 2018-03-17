@@ -1,5 +1,5 @@
 local displayTime = true
-local useMilitaryTime = false
+local useMilitaryTime = true
 local displayDayOfWeek = true
 local displayDate = true
 

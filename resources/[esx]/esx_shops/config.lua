@@ -46,12 +46,13 @@ Config.Zones = {
     },
 
     Bar = {
-        Items = {wine,beer,vodka,tequila,whisky},
+        Items = {water,wine,beer,vodka,tequila,whisky},
         Pos = {
             {x = 127.830,   y = -1284.796, z = 28.280}, --StripClub
             {x = -1393.409, y = -606.624,  z = 29.319}, --Bahamamas
             {x = -559.906,  y = 287.093,   z = 81.176}, --Tequila la
-            {x = 1986.18,   y = 3054.31,   z = 46.32}
+            {x = 1986.18,   y = 3054.31,   z = 46.32},
+            {x = -2091.96,   y = -1015.84, z = 8.97} -- Yatch
         }
     }
 }
