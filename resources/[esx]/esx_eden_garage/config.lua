@@ -429,6 +429,26 @@ Config.Garages = {
 			Marker = 1
 		}
 	},
+	Garage_Vigner = {
+		Name	= "Garagem Comercial",	
+		Pos 	= {x=-1897.66, y=2035.69, z=140.74},
+		Size  	= {x = 1.5, y = 1.5, z = 1.0},
+		Color 	= {r = 204, g = 204, b = 0},
+		Marker 	= 1,
+		SpawnPoint = {
+			Pos = {x=-1895.53, y=2035.52, z=139.536}, 
+			Color = {r=0,g=255,b=0},
+			Size  = {x = 1.5, y = 1.5, z = 1.0},
+			Heading=151.52,
+			Marker = 1		
+		},
+		DeletePoint = {
+			Pos = {x=-1899.62, y=2036.2, z=139.536},
+			Color = {r=255,g=0,b=0},
+			Size  = {x = 2.0, y = 2.0, z = 1.0},
+			Marker = 1
+		}
+	},
 	Garage_CinemaStudio = {
 		Name	= "Garagem",	
 		Pos 	= {x=-1039.83, y=-501.43, z=36.05},
