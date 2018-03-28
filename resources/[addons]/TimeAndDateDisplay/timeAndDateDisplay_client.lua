@@ -23,7 +23,7 @@ Citizen.CreateThread(function()
 		end
 		if displayDayOfWeek == true then
 			CalculateDayOfWeekToDisplay()
-			timeAndDateString = timeAndDateString .. " " .. dayOfWeek .. " |"
+			timeAndDateString = timeAndDateString .. " " .. dayOfWeek .. ", "
 		end
 		if displayDate == true then
 			CalculateDateToDisplay()
@@ -71,15 +71,15 @@ function CalculateDayOfWeekToDisplay()
 	dayOfWeek = GetClockDayOfWeek()
 	
 	if dayOfWeek == 0 then
-		dayOfWeek = "Segunda"
+		dayOfWeek = "Segunda-feira"
 	elseif dayOfWeek == 1 then
-		dayOfWeek = "Terça"
+		dayOfWeek = "Terça-feira"
 	elseif dayOfWeek == 2 then
-		dayOfWeek = "Quarta"
+		dayOfWeek = "Quarta-feira"
 	elseif dayOfWeek == 3 then
-		dayOfWeek = "Quinta"
+		dayOfWeek = "Quinta-feira"
 	elseif dayOfWeek == 4 then
-		dayOfWeek = "Sexta"
+		dayOfWeek = "Sexta-feira"
 	elseif dayOfWeek == 5 then
 		dayOfWeek = "Sábado"
 	elseif dayOfWeek == 6 then
